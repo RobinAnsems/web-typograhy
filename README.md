@@ -1,81 +1,79 @@
-# Responsive Typography, 2019/2020
+# Web Typography Robin Ansems VID2 
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+inleiding
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+## Inhoudsopgave
 
-Dat kan visueel sterker. 
+*   [Opdracht](#opdracht)
+*   [Marie](#marie)
+*   [Typografie](#typografie)
+*   [Effecten](#effecten)
+*   [Code](#code)
+*   [Bronnen](#bronnen)
+*   [Socials](#socials)
+*   [iets](https://robinansems.github.io/index.html)
+*   [iets](#iets)
+*   [iets](#iets)
+*   [iets](#iets)
 
-En dat gaan jullie doen.
+## Opdracht
+De opdracht is...
+_schuingedrukt_
+**dikgedrukt**
 
-## Leerdoelen
+## Typografie
+De typografie die ik heb gekozen is...
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+## Marie
+Dingen die ik over marie weet...
 
-## Oplevering
+blade runner is tof, dat genre, ik kijk veel series, weinig geduld voor films. ik kijk series als walking dead, friends. ondertiteling in walking dead is bijzonder als er iemand doodgaat. 'spannende muziek' houdt niet zo veel in als ondertiteling. manier van spreken wordt niet laten zien. kant van geluid is ook belangrijk. iemand die buiten beeld praat is belangrijk. jaren 80 actie films vind ze leuk. arnold zwarzeneger.
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+wat maakt de spanning?
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+zus, woont in amsterdam
 
-## Typografische restricties
+ze 2 talig opgevoed, houdt van lezen
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+grammatica is anders vergeleken met nederlands en gebarentaal, ik ga naar huis, ik naar huis ga.
 
-### Optie 1: Systeemfont
+harry potter lezen is beter dan de film, maakt niet uit lezen of films
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
+aandacht verdelen, grapjes zijn minder grappig met doventolk dan met ondertiteling
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+niet last van flikkerden beelden en of snelle bewegingen
 
-### Optie 2: Brenner
+kijkt niet anders naar kleuren als andere mensen
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+tip: sfeer van de film is belangrijk, alle geluiden zijn belangrijk, achtergrond tot geluidseffecten
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+kitcherig vind ze leuk
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+werkt bij vpro
 
-## Het fragment
+scifi geluiden weet je niet wat het zijn
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+timing van de dialoog is spanning, stem van computer komt machtig over omdat er zo snel wordt geantwoord na het antwoord van de hoofdpersoon
 
-### De captions
+vibratie in plaats van geluid
 
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
+## Effecten
+De effecten die ik heb toegepast is...
 
-Met JavaScript worden er een paar dingen extra gedaan: 
+## Code
+De code die ik heb geschreven is...
 
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
+## Bronnen
+De bronnen die ik heb gebruikt zijn...
 
-### Tijdens het afspelen
+#### Socials
+dit is waar je mij kan vinden:
+*   🌐[Portfolio website](https://robinansems.github.io/index.html)
+*   📷[Instagram](https://www.instagram.com/robinansems/)
+*   🐦[Twitter](https://twitter.com/robinansems)
+*   📹[Youtube](https://www.youtube.com/user/robinansems00)
+*   📚[Facebook](https://www.facebook.com/profile.php?id=100005222555664)
 
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
 
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
 
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
 
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
