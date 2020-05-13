@@ -38,6 +38,10 @@ De typografie die ik heb gekozen is het Brenner-font. Ik heb gekozen voor Brenne
 
 ![brenner-mono-font-weergave](https://github.com/RobinAnsems/web-typography/blob/master/images/brenner-mono-font-weergave.png)
 
+Als het gaat om het font voor de hoofdpersoon in het fragment, maakt dit niet heel veel uit, misschien heeft een vrouwenstem een ander font dan die van een mannenstem maar het font van de hoofdpersoon (in dit geval een man), zou de font-family genaamd 'Brenneer Sans' hier geschikt voor kunnen zijn, zoals hier onder te zien is:
+
+![brenner-sans-font-weergave](https://github.com/RobinAnsems/web-typography/blob/master/images/brenner-sans-font-weergave.png)
+
 ## Marie
 Dingen die ik over marie weet...
 
