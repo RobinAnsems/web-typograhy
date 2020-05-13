@@ -8,8 +8,10 @@ Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleidi
 ## Inhoudsopgave
 
 *   [Opdracht](#opdracht)
-*   [Marie](#marie)
+*   [Fragment](#fragment)
 *   [Typografie](#typografie)
+*   [Marie](#marie)
+*   [Visie](#visie)
 *   [Effecten](#effecten)
 *   [Code](#code)
 *   [Bronnen](#bronnen)
@@ -31,7 +33,7 @@ Dat kan visueel sterker.
 En dat gaan jullie doen.
 
 ## Fragment
-Het fragment dat we gaan voorzien van Closed Captions komt uit de film genaamd: 'Blade Runner 2049'. Het fragment duurt 2 minuut en 16 seconden. Het grootste deel van het fragment bestaat uit een interview tussen Ryan Gosling (de hoofdpersoon) en een robot (de interviewer). Het fragment is [hier](https://www.youtube.com/watch?v=vrP-_T-h9YM) te vinden. En de versie met kale ondertiteling, gemaakt door Vasilis van Gemert, is [hier](https://robinansems.github.io/web-typography/) te vinden
+Het fragment dat we gaan voorzien van Closed Captions komt uit de film genaamd: 'Blade Runner 2049'. Het fragment duurt 2 minuut en 16 seconden. Het grootste deel van het fragment bestaat uit een interview tussen Ryan Gosling (de hoofdpersoon) en een robot (de interviewer). Het fragment is [hier](https://www.youtube.com/watch?v=vrP-_T-h9YM) te vinden. En de versie met kale ondertiteling, gemaakt door Vasilis van Gemert, is [hier](https://github.com/cmda-minor-vid/web-typography-19-20/blob/master/closed-captions/index.html) te vinden (volgensmij doet het linkje het niet helemaal goed).
 
 ## Typografie
 Voor het font dat we gebruiken in het fragment konden we kiezen uit een systeemfont (alleen normal, **bold** en _italic_) of het font genaamd [Brenner](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). 
@@ -55,37 +57,42 @@ We hebben samen met onze klas een kennismakingsgesprek met Marie gevoerd.
 Sinds Marie onze doelgroep is voor de opdracht, en we het fragment voor haar moeten maken, moet je verschillende dingen over Marie te weten te komen om een duidelijk beeld van haar interesses te hebben en wat ze wel en niet wilt zin in Closed Captions.
 
 #### Dit is wat ik over Marie te weten ben gekomen:
-* 
+* Marie vindt het genre van Blade Runner tof, ze kijkt veel series, maar heeft weinig geduld voor films.
+* Marie kijkt series als Walking Dead en Friends.
+* De ondertiteling in Walking Dead vindt ze bijzonder, vooral als er iemand doodgaat.
+* 'spannende muziek houdt niet zo veel in als ondertiteling, vindt Marie, en dit kan ik zer begrijpen.
+* De manier van spreken wordt vaak niet laten zien in ondertiteling.
+* De kant van het geluid kan heel erg belangrijk zijn. Iemand die buiten het beeld praat is belangrijk.
+* Marie vindt jaren 80 actie films leuk. Vooral die van Arnold Schwarzenegger.
+* Marie heeft 1 zus en woont in Amsterdam.
+* Marie is tweetalig opgevoed, Nederlands en Gebarentaal. De grammatica van gebarentaal is anders vergeleken met de nederlandse taal. Bijvoorbeeld: "ik ga naar huis" is in gebarentaal "ik naar huis gaan".
+* Marie houdt van lezen
+* Marie vindt Harry Potter boeken beter dan de films.
+* Marie moet vaak de aandacht verdelen, grapjes zijn minder grappig met doventolk dan met ondertiteling onder een filmpje, vanwege het grammatica-verschil.
+* Marie heeft niet last van flikkerden beelden en of snelle bewegingen, wat misschien kan worden gebruikt in de Closed Captions visuele weergaven.
+* Marie kijkt niet anders naar kleuren als andere mensen.
+* Marie werkt bij de VPRO in Hilversum.
+* Marie weet niet precies wat Sci Fi geluiden zijn, omdat ze simpelweg deze nog nooit heeft gehoort. 
+* Marie kan verschillende soorten geluid onderscheiden doormiddel van de vibratie van het geluid.
 
-blade runner is tof, dat genre, ik kijk veel series, weinig geduld voor films. ik kijk series als walking dead, friends. ondertiteling in walking dead is bijzonder als er iemand doodgaat. 'spannende muziek' houdt niet zo veel in als ondertiteling. manier van spreken wordt niet laten zien. kant van geluid is ook belangrijk. iemand die buiten beeld praat is belangrijk. jaren 80 actie films vind ze leuk. arnold zwarzeneger.
+#### Belangrijke aandachtspunten:
+Uit het kennismakingsgesprek heb ik enkele aandachtspunten gehaald. 
 
-wat maakt de spanning?
+* Een vraag die ik mijzelf moet gaan stellen is: 'Wat maakt de spanning?'
+* De sfeer van een film is belangrijk, alle geluiden zijn belangrijk, achtergrond tot alle geluidseffecten.
+* De timing van de dialoog is spannend, de stem van de robot komt machtig over omdat er snel wordt geantwoord na het antwoord van de hoofdpersoon, hier kan visueel wat mee worden gedaan.
 
-zus, woont in amsterdam
+## Visie
+Na het zien van werk van verschillen medestudenten en werk van oudstudenten, zag ik heel vaak voorkomen dat studenten proberen om geluiden visueel te laten zien doormiddel van lichtflitsen, schaduwen en effecten rondom het fragment. Ik denk niet dat dit de juiste manier is om Marie er bewust van te maken van hoe het geluid zou kunnen klinken. Ik denk dat het gebruik van iconen en afbeeldingen een beter beeld geven van hoe het geluid zou kunnen klinken. 
 
-ze 2 talig opgevoed, houdt van lezen
+Denk bijvoorbeeld aan het geluid van een bel (wat zich afspeelt op de achtergrond, dat is hierbij heel belangrijk). Als je het fragment zou laten bewegen als een bel en er een gele gloed omheen zou laten zetten zou je misschien een gevoel kunnen krijgen van hoe het geluid er uit zou kunnen zien. Maar wat nou als je een afbeelding, een icoon, of zelfs een emoji van een bel laat zien met de toevoeging van een closed caption zoals "bel rings". Ik denk dat dit gelijk een duidelijker beeld geeft van hoe het geluid zou kunnen klinken voor Marie.
 
-grammatica is anders vergeleken met nederlands en gebarentaal, ik ga naar huis, ik naar huis ga.
+Ook denk ik dat het bij het interview heel belangrijk is dat er duidelijk is wie praat. En om dan weer terug te komen bij de iconen/emojis zou dit toe kunnen worden gepast als bijvoorbeeld het volgende:
 
-harry potter lezen is beter dan de film, maakt niet uit lezen of films
-
-aandacht verdelen, grapjes zijn minder grappig met doventolk dan met ondertiteling
-
-niet last van flikkerden beelden en of snelle bewegingen
-
-kijkt niet anders naar kleuren als andere mensen
-
-tip: sfeer van de film is belangrijk, alle geluiden zijn belangrijk, achtergrond tot geluidseffecten
-
-kitcherig vind ze leuk
-
-werkt bij vpro
-
-scifi geluiden weet je niet wat het zijn
-
-timing van de dialoog is spanning, stem van computer komt machtig over omdat er zo snel wordt geantwoord na het antwoord van de hoofdpersoon
-
-vibratie in plaats van geluid
+* (🤖 Robot) Do they keep you in a cell?
+* (👨 Officer K) Cells.
+* (🤖 Robot) Do you dream about being interlinked?
+* (👨 Officer K) Interlinked.
 
 ## Effecten
 De effecten die ik heb toegepast is...
