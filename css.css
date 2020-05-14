@@ -43,19 +43,20 @@ html {
 }
 
 p {
+    margin-top: -1em;
     padding-left: 2em;
     max-width: 1200px;
 }
 
 .titel1 {
     position: absolute;
-    top: 87vh;
+    top: 86vh;
     left: 2em;
 }
 
 .titel2 {
     position: absolute;
-    top: 87vh;
+    top: 86vh;
     left: 80em;
 }
 
@@ -73,6 +74,85 @@ p {
     margin: 0;
 }
 
+/*--------------------------------------------------------*/
+
+.soundcaption0 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 0 0 0 41.6em;
+}
+
+.soundcaption1 {
+    font-family: "Brenner Sans";
+    color: red;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption2 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption3 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption4 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption5 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption6 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption7 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption8 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 41.6em;
+}
+
+.soundcaption9 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 0 0 0 41.6em;
+}
+
+.soundcaption10 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 0 0 0 41.6em;
+}
+
 /* **********************************************
 Basic mechanics
 Hide all paragraphs by default
@@ -85,6 +165,7 @@ Feel free to adjust the defaults to your needs.
     opacity: 0;
     transition: .05s;
     position: absolute;
+    top: 88vh;
 }
 
 #closed-captions .on {
@@ -111,12 +192,10 @@ You probably want to change the styling.
 
 .p0.on span:first-of-type {
     opacity: 1;
-    color: white;
 }
 
 .p0.on span:nth-of-type(2) {
     opacity: 1;
-    color: white;
 }
 
 .p0.on span:nth-of-type(3) {

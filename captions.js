@@ -55,8 +55,8 @@ captions[39] = ['65.2','66.6'];
 	//Why don't you say that three times: "within cells interlinked".
 captions[40] = ['66.6','69.1'];
 
-captions[41] = ['69.1','70.6'];
-captions[42] = ['70.6','72.2'];
+captions[41] = ['69.1','70.5'];
+captions[42] = ['70.6','72.1'];
 captions[43] = ['72.2','74.2'];
 	// We're done.
 captions[44] = ['77.1','78.7'];
@@ -70,6 +70,7 @@ captions[49] = ['88.38','88.88'];
 // Have you ever been in an institution. Cells
 captions[50] = ['88.88','91.24'];
 captions[51] = ['91.34','91.84'];
+//duties
 captions[52] = ['91.98','95.52'];
 // -Cells
 captions[53] = ['95.52','96.02'];
@@ -107,3 +108,27 @@ captions[76] = ['124.92','125.52'];
 captions[77] = ['125.52','127.28'];
 captions[78] = ['128.18','130.14'];
 captions[79] = ['132.58','135'];
+
+// soundcaptions
+// drumgeluiden
+captions[80] = ['0.0','33.0'];
+// alarm
+captions[81] = ['9.0','10.0'];
+// tolalarm
+captions[82] = ['12.0','13.0'];
+// lage toon
+captions[83] = ['15.2','16.7'];
+// hoge toon
+captions[84] = ['16.7','17.2'];
+// lage toon
+captions[85] = ['24.2','25.7'];
+// hoge toon
+captions[86] = ['25.7','26.2'];
+// lage toon
+captions[87] = ['31.2','32.3'];
+// hoge toon
+captions[88] = ['32.3','33.0'];
+// hoge piep
+captions[89] = ['33.2','75'];
+// spannende muziek
+captions[90] = ['86.0','136'];
