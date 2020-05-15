@@ -9,7 +9,7 @@ sounds = [
 	24,    //class genaamd sound5
 	25.5,  //class genaamd sound6
 	31,    //class genaamd sound7
-	32.5,    //class genaamd sound8
+	32.5,  //class genaamd sound8
 	34,    //class genaamd sound9
 	86     //class genaamd sound10
 ];

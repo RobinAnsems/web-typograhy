@@ -12,14 +12,12 @@ Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleidi
 *   [Typografie](#typografie)
 *   [Marie](#marie)
 *   [Visie](#visie)
+*   [Versie1](#versie1)
+*   [Feedback](#feedback)
 *   [Effecten](#effecten)
 *   [Code](#code)
 *   [Bronnen](#bronnen)
 *   [Socials](#socials)
-*   [iets](https://robinansems.github.io/index.html)
-*   [iets](#iets)
-*   [iets](#iets)
-*   [iets](#iets)
 
 ## Opdracht
 De opdracht is:
@@ -81,11 +79,12 @@ Uit het kennismakingsgesprek heb ik enkele aandachtspunten gehaald.
 * Een vraag die ik mijzelf moet gaan stellen is: 'Wat maakt de spanning?'
 * De sfeer van een film is belangrijk, alle geluiden zijn belangrijk, achtergrond tot alle geluidseffecten.
 * De timing van de dialoog is spannend, de stem van de robot komt machtig over omdat er snel wordt geantwoord na het antwoord van de hoofdpersoon, hier kan visueel wat mee worden gedaan.
+* Closed Captions bestaan grotendeels uit twee delen. 1. stemmen van personen, deze worden weergegeven doormiddel van (ronde haakjes) en 2. geluiden, deze worden weergegeven doormiddel van \[blokhaken\].
 
 ## Visie
-Na het zien van werk van verschillen medestudenten en werk van oudstudenten, zag ik heel vaak voorkomen dat studenten proberen om geluiden visueel te laten zien doormiddel van lichtflitsen, schaduwen en effecten rondom het fragment. Ik denk niet dat dit de juiste manier is om Marie er bewust van te maken van hoe het geluid zou kunnen klinken. Ik denk dat het gebruik van iconen en afbeeldingen een beter beeld geven van hoe het geluid zou kunnen klinken. 
+Na het zien van werk van verschillende medestudenten en werk van oudstudenten, zag ik heel vaak voorkomen dat studenten proberen om geluiden visueel te laten zien doormiddel van kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. Ik denk niet dat dit de juiste manier is om Marie er bewust van te maken van hoe het geluid zou kunnen klinken. Ik denk dat het gebruik van iconen en afbeeldingen een beter beeld geven van hoe het geluid zou kunnen klinken. 
 
-Denk bijvoorbeeld aan het geluid van een bel (wat zich afspeelt op de achtergrond, dat is hierbij heel belangrijk). Als je het fragment zou laten bewegen als een bel en er een gele gloed omheen zou laten zetten zou je misschien een gevoel kunnen krijgen van hoe het geluid er uit zou kunnen zien. Maar wat nou als je een afbeelding, een icoon, of zelfs een emoji van een bel laat zien met de toevoeging van een closed caption zoals "bel rings". Ik denk dat dit gelijk een duidelijker beeld geeft van hoe het geluid zou kunnen klinken voor Marie.
+Denk bijvoorbeeld aan het geluid van een bel (wat zich afspeelt op de achtergrond, dat is hierbij heel belangrijk). Als je het fragment zou laten bewegen als een bel en er een gele gloed omheen zou laten zetten zou je misschien een gevoel kunnen krijgen van hoe het geluid er uit zou kunnen zien. Maar voor Marie is dit niet van toegevoegde waarde. Maar wat nou als je een afbeelding, een icoon, of zelfs een emoji van een bel laat zien met de toevoeging van een closed caption zoals "bel rings". Ik denk dat dit gelijk een duidelijker beeld geeft van hoe het geluid zou kunnen klinken voor Marie.
 
 Ook denk ik dat het bij het interview heel belangrijk is dat er duidelijk is wie praat. En om dan weer terug te komen bij de iconen/emojis zou dit toe kunnen worden gepast als bijvoorbeeld het volgende:
 
@@ -93,6 +92,44 @@ Ook denk ik dat het bij het interview heel belangrijk is dat er duidelijk is wie
 * (👨 Officer K) Cells.
 * (🤖 Robot) Do you dream about being interlinked?
 * (👨 Officer K) Interlinked.
+
+## Versie1
+Bij mijn eerste versie van mijn fragment heb ik de styling van de ondertiteling van de robot en Officer K aangepast. Ik heb bij de regels Voice 1, oftwel van de robot "(🤖 Robot)" er voor gezet. En bij de regels Voice 2, oftwel van Officer K heb ik "(👨 Officer K)" er voor gezet. 
+De kleur van de tekst van de robot heb ik groen gemaakt met de font-family: Brenner Mono Medium. 
+De kleur van de tekst van Officer K heb ik wit gemaakt met de font-family: Brenner Sans Medium. 
+Voice 3 heb ik "(👨🏼‍🦲 Bald guy)" genoemd, ik heb hem de kleur rood gegeven en de font-family Brenner Sans Condensed Bold. 
+Voice 4 is volgens Vasilis een ander persoon, maar volgensmij is dit nogsteeds voice1, oftewel de robot, het klopt dat de toonhoogte van de stem anders is, maar het is en blijft dezelfde stem. Dus ik heb voice 4 dezelfde styling gegeven als die van Voice 1, maar ik heb wel enkele closed captions erbij gezet om aan te geven dat de stem van de robot anders is dan normaal.
+
+Als het gaat om de closed captions heb ik de volgende captions laten zien onder het fragment:
+* \[🎶🥁 Heavy drum sounds\]
+* \[🚨 Alarmbuzzer\]
+* \[📯 High frequency Horn\]
+* \[🎵🚨 Low frequency Buzzer\] (3x)
+* \[🎵🚨 High frequency Buzzer\] (3x) 
+* \[🎵🔊 High frequency tone keeps increasing\]
+* \[🎶 Taunting music\]
+
+Ik heb de ondertiteling en de closed captions gescheiden gehouden. 
+Ik heb de ondertiteling van de stemmen linksonder het fragment neergezet en het kopje "voices" er boven gezet. 
+Ik heb de closed captions van de geluiden rechtsonder het fragment neergezet en het kopje "sounds" er boven gezet.
+Ik heb deze twee gescheiden gehouden omdat het al snel onduidelijk werd wat de closed caption is en wat de ondertiteling is als ze naast of onder elkaar komen te staan, puur omdat het fragment zo snel is kwa tekst. 
+
+## Feedback
+Na het eerste feedbackgesprek met Marie ben ik achter enkele dingen gekomen:
+* Op 1:07 vraagt de robot of Officer K "within cells interlinked" 3x wilt zeggen. In de timing van de captions.js sloten deze 3 zinnen bij elkaar aan waardoor het leek in de ondertiteling alsof Officer K het maar 1x zegt. Ik heb daarom deze timing aangepast en de font-size veranderd.
+* De twee stemmen in het fragment hebben meestal dezelfde toonhoogte, vaak erg monotoon. Maar soms zijn er verschillen, en deze moet ik juist weer gaan geven in de closed captions door het toevoegen van bijvoorbeeld meer: \[sighs softly]\.
+* Marie vind het gebruik van emoji's erg leuk in ondertiteling en closed captions.
+* De scheiding tussen sounds en voices vindt ze interessant maar misschien wel een beetje onhandig omdat ze op veel plekken tegelijkertijd moet kijken. Misschien zou ik sounds en voices van plek om kunnen draaien zodat je minder met je ogen hoeft te bewegen.
+* Een plaatje van het object wat het geluid maakt, wordt te veel. Een Emoji is prima, klein en duidelijk.
+* Als het gaat om stemmen van mensen, zijn emoji's niet echt nodig, maar bij geluiden zou dit wel van toegevoegde waarde kunnen zijn.
+
+Na het eerste feedbackgesprek met Vasilis ben ik achter enkele dingen gekomen:
+* Ik moet nog veel meer nadenken over hoe ik de geluiden visueel wil gaan laten zien. De toevoeging van css-effecten is bij het fragment zeker nodig.
+
+Aanpassingen die ik zelf nog heb verzonnen na beiden feedback gesprekken:
+* Na captions 53, op 1:35 in het fragment is een ondertiteling vergeten, deze ga ik zelf toevoegen, dan is de ondertiteling 100% compleet.
+* Het lettertype van de robot en Officer K zou misschien wel hetzelfde kunnen zijn, dit kan zorgen voor betere leesbaarheid, nu verspringen de teksten vaak omdat de regellengte van de robot langer is dan die van Officer K, puur omdat het font van de robot monospace is waardoor de tekst vaak verspringt.
+* Er moet visueel worden weergegeven hoe de spanning van het geluid klinkt.
 
 ## Effecten
 De effecten die ik heb toegepast is...

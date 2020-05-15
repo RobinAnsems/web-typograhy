@@ -257,3 +257,11 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s 3.7s;
 }
+
+.p42.on span {
+    font-size: 35px;
+}
+
+.p43.on span {
+    font-size: 40px;
+}
