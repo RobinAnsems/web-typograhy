@@ -1,5 +1,7 @@
-// Hier kan je tijden toevoegen in secondes
-// Op die mommenten komt er een class op de body.
+//-------------------------------------------------
+//-----class die op de body komt, in seconden------
+//-------------------------------------------------
+
 sounds = [
 	0,     //class genaamd sound0
 	9,     //class genaamd sound1

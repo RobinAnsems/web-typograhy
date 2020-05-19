@@ -1,6 +1,6 @@
-/*---------------*/
-/*------???------*/
-/*---------------*/
+/*---------------------*/
+/*------standaard------*/
+/*---------------------*/
 
 #video-placeholder {
     width: 100vw;
@@ -14,11 +14,15 @@ html {
     background-color: black;
 }
 
+/*------------------------------------------------*/
+/*------styling voor de verschillende voices------*/
+/*------------------------------------------------*/
+
 .voice1 {
-    font-family: "Brenner Sans Medium";
+    font-family: "Brenner Mono Medium";
     color: limegreen;
-    font-size: 30px;
-    margin: 0 0 0 15em;
+    font-size: 27.5px;
+    margin: 0 0 0 16.5em;
 }
 
 .voice2 {
@@ -35,18 +39,19 @@ html {
     margin: 0 0 0 12.6em;
 }
 
-.voice4 {
-    font-family: "Brenner Sans Medium";
-    color: limegreen;
-    font-size: 30px;
-    margin: 0 0 0 15em;
-}
+/*-------------------------------*/
+/*------styling voor elke p------*/
+/*-------------------------------*/
 
 p {
     margin-top: -1em;
     padding-left: 2em;
     max-width: 1200px;
 }
+
+/*------------------------------------------------------*/
+/*------positionering van de kopjes onder de video------*/
+/*------------------------------------------------------*/
 
 .titel1 {
     position: absolute;
@@ -59,6 +64,10 @@ p {
     top: 86vh;
     left: 30em;
 }
+
+/*------------------------------------------------*/
+/*------styling van de kopjes onder de video------*/
+/*------------------------------------------------*/
 
 .voices {
     font-family: "Brenner Sans";
@@ -74,7 +83,9 @@ p {
     margin: 0;
 }
 
-/*--------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*------styling van de closed captions van alle geluiden in het fragment------*/
+/*----------------------------------------------------------------------------*/
 
 .soundcaption0 {
     font-family: "Brenner Sans";
@@ -154,13 +165,9 @@ p {
     margin: 0;
 }
 
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
+/*-----------------------------------------------------*/
+/*------styling van hoe de ondertiteling reageerd------*/
+/*-----------------------------------------------------*/
 
 #closed-captions p {
     opacity: 0;
@@ -178,14 +185,9 @@ Feel free to adjust the defaults to your needs.
     opacity: 0;
 }
 
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
+/*-----------------------------------------------------*/
+/*------Styling van de eerste zin in het fragment------*/
+/*-----------------------------------------------------*/
 
 .p0 span {
     opacity: 0;
@@ -258,6 +260,10 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s 3.7s;
 }
+
+/*-----------------------------------------------------------------------------*/
+/*------Styling van "within cells interlinked", wat 3x wordt uitgesproken------*/
+/*-----------------------------------------------------------------------------*/
 
 .p42.on span {
     font-size: 35px;

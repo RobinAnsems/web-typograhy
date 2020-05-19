@@ -1,6 +1,3 @@
-_schuingedrukt_
-**dikgedrukt**
-
 # Web Typography Robin Ansems VID2 
 
 Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleiding genaamd: Communication and Multimedia Design aan de Hogeschool van Amsterdam en volg een Minor genaamd Visual Interface Design. Bij het vak Web-Typography leren we hoe we de verborgen nuance uit een audiotrack overtuigend kunnen vertalen naar visuele (typografische) beelden. Hier onder is te zien wat ik heb gemaakt voor het vak. Veel lees plezier!
