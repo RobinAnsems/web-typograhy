@@ -1,6 +1,6 @@
-/*----------------------*/
-/*------Toegevoegd------*/
-/*----------------------*/
+/*---------------*/
+/*------???------*/
+/*---------------*/
 
 #video-placeholder {
     width: 100vw;
@@ -15,31 +15,31 @@ html {
 }
 
 .voice1 {
-    font-family: "Brenner Mono Medium";
+    font-family: "Brenner Sans Medium";
     color: limegreen;
     font-size: 30px;
-    margin: 0;
+    margin: 0 0 0 15em;
 }
 
 .voice2 {
     font-family: "Brenner Sans Medium";
     color: white;
     font-size: 30px;
-    margin: 0;
+    margin: 0 0 0 15em;
 }
 
 .voice3 {
     font-family: "Brenner Sans Condensed Bold";
     color: red;
     font-size: 35px;
-    margin: 0;
+    margin: 0 0 0 15em;
 }
 
 .voice4 {
-    font-family: "Brenner Mono Medium";
+    font-family: "Brenner Sans Medium";
     color: limegreen;
     font-size: 30px;
-    margin: 0;
+    margin: 0 0 0 15em;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
 .titel2 {
     position: absolute;
     top: 86vh;
-    left: 80em;
+    left: 30em;
 }
 
 .voices {
@@ -80,77 +80,78 @@ p {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 0 0 0 41.6em;
+    margin: 0;
 }
 
 .soundcaption1 {
     font-family: "Brenner Sans";
     color: red;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption2 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption3 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption4 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption5 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption6 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption7 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption8 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 1.5em 0 0 41.6em;
+    margin: 1.5em 0 0 0;
 }
 
 .soundcaption9 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 0 0 0 41.6em;
+    margin: 0;
+    max-width: 400px;
 }
 
 .soundcaption10 {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 0 0 0 41.6em;
+    margin: 0;
 }
 
 /* **********************************************
