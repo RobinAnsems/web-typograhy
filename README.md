@@ -145,7 +145,11 @@ Aanpassingen die ik zelf nog heb verzonnen na beiden feedback gesprekken:
 * Er moet visueel worden weergegeven hoe de spanning van het geluid klinkt.
 
 ## Visie2
-blabla
+Ik heb nog vrij weinig kunnen doen aan de visuele effecten op of om het fragment heen, dit komt omdat ik heel veel heb nagedacht over hoe ik visueel wil laten zien hoe het geluid zou kunnen klinken. Het is een lastige maar uitdagende opdracht, puur omdat er geen voorbeelden zijn en niemand weet wat de correcte manier is om deze opdracht te maken. Ik heb daarom veel onderzoek gedaan naar de theorie achter het visualiseren van geluid. Ik heb een Javascript Sound Visualizer gevonden die aan de hand van het geluid van een mp3'tje op een canvas de verschillende toonhoogtes laat zien. Het wordt een grote uitdaging om dit te coderen in mijn project. Maar alleen deze Visualizer is volgens Vasilis niet genoeg om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken. Ik heb er daarom voor gekozen om te doen wat de meeste klasgenoten ook doen: kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. 
+
+Mijn visie hierbij is wel belangrijk:
+* Ik wil er voor zorgen dat de filmervaring niet verloren gaat, de effecten mogen niet voor afleiding zorgen!
+* Het beeldmateriaal moet blijven zoals het is, de film is en blijft de film. Hier mogen wel visuele effecten aan worden toegevoegd maar ik vind dat deze niet voor afleiding mogen zorgen. Bijvoorbeeld dat sommige effecten overduidelijk over het beeld heen gaan of de achtergrond overduidelijk van kleur veranderen, mijn mening is dat dit niet mag en hierbij de filmervaring verloren gaat. Het moeten **onopvallende effecten** zijn die de sfeer en het geluid aan Marie op een minimalistische manier duidelijk maken.
 
 ## Versie2
 Na het eerste feedback gesprek heb ik er voor gekozen om de Closed Captions van de geluiden en de ondertiteling van de stemmen om te draaien:
@@ -170,8 +174,7 @@ Marie vond dit erg interessant en vertelde dat visualisatie van geluid dmv van d
 
 Na het tweede feedbackgesprek met Vasilis ben ik ook achter enkele dingen gekomen:
 * We worden beoordeeld op 4 leerdoelen die [hier](https://github.com/cmda-minor-vid/web-typography-19-20#leerdoelen) in de opdracht staan beschreven.
-* Vasilis gaf dezelfde feedback als vorige keer namelijk: Ik moet nog veel meer nadenken over hoe ik de geluiden visueel wil gaan laten zien. De toevoeging van css-effecten is bij het fragment zeker nodig. Ik heb hier nog niets aan kunnen doen omdat ik heel veel heb nagedacht over hoe ik visueel wil laten zien hoe het geluid zou kunnen klinken. Het is een lastige maar uitdagende opdracht, puur omdat er geen voorbeelden zijn en niemand weet wat de correcte manier is om deze opdracht te maken. Ik heb daarom veel onderzoek gedaan naar de theorie achter het visualiseren van geluid. Het toevoegen van een Javascript Sound Visualizer zoals hierboven te zien was, wordt een grote uitdaging om te coderen, en dat is zeker niet genoeg volgens Vasilis om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken. Ik heb er daarom voor gekozen om te doen wat de meeste klasgenoten ook doen: kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. Maar ik wil er wel voor zorgen dat de filmeravring niet verloren gaat, dus kortom: de effecten mogen niet voor afleiding zorgen!
-
+* Vasilis gaf dezelfde feedback als vorige keer namelijk: Ik moet nog veel meer nadenken over hoe ik de geluiden visueel wil gaan laten zien. De toevoeging van css-effecten is bij het fragment zeker nodig. 
 
 ## Effecten
 De effecten die ik heb toegepast is...
