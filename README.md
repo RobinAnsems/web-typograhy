@@ -8,9 +8,12 @@ Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleidi
 *   [Fragment](#fragment)
 *   [Typografie](#typografie)
 *   [Marie](#marie)
-*   [Visie](#visie)
+*   [Visie1](#visie1)
 *   [Versie1](#versie1)
-*   [Feedback](#feedback)
+*   [Feedback1](#feedback1)
+*   [Visie2](#visie2)
+*   [Versie2](#versie2)
+*   [Feedback2](#feedback2)
 *   [Effecten](#effecten)
 *   [Code](#code)
 *   [Bronnen](#bronnen)
@@ -80,7 +83,7 @@ Uit het kennismakingsgesprek heb ik enkele aandachtspunten gehaald.
 * De timing van de dialoog is spannend, de stem van de robot komt machtig over omdat er snel wordt geantwoord na het antwoord van de hoofdpersoon, hier kan visueel wat mee worden gedaan.
 * Closed Captions bestaan grotendeels uit twee delen. 1. stemmen van personen, deze worden weergegeven doormiddel van (ronde haakjes) en 2. geluiden, deze worden weergegeven doormiddel van \[blokhaken\].
 
-## Visie
+## Visie1
 Na het zien van werk van verschillende medestudenten en werk van oudstudenten, zag ik heel vaak voorkomen dat studenten proberen om geluiden visueel te laten zien doormiddel van kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. Ik denk niet dat dit de juiste manier is om Marie er bewust van te maken van hoe het geluid zou kunnen klinken. Ik denk dat het gebruik van iconen en afbeeldingen een beter beeld geven van hoe het geluid zou kunnen klinken. 
 
 Denk bijvoorbeeld aan het geluid van een bel (wat zich afspeelt op de achtergrond, dat is hierbij heel belangrijk). Als je het fragment zou laten bewegen als een bel en er een gele gloed omheen zou laten zetten zou je misschien een gevoel kunnen krijgen van hoe het geluid er uit zou kunnen zien. Maar voor Marie is dit niet van toegevoegde waarde. Maar wat nou als je een afbeelding, een icoon, of zelfs een emoji van een bel laat zien met de toevoeging van een Closed Caption zoals "bel rings". Ik denk dat dit gelijk een duidelijker beeld geeft van hoe het geluid zou kunnen klinken voor Marie.
@@ -124,9 +127,7 @@ Ik heb de Closed Captions van de geluiden rechtsonder het fragment neergezet en 
 
 Ik heb deze twee gescheiden gehouden omdat het al snel onduidelijk werd wat de Closed Caption is en wat de ondertiteling is als ze naast of onder elkaar komen te staan, puur omdat het interview in het fragment zo snel heen en weer gaat.
 
-## Feedback
-
-### Feedbackgesprek 1
+## Feedback1
 Na het eerste feedbackgesprek met Marie ben ik achter enkele dingen gekomen:
 * Op 1:07 vraagt de robot of Officer K "within cells interlinked" 3x wilt zeggen. In de timing van de captions.js sloten deze 3 zinnen bij elkaar aan waardoor het leek in de ondertiteling alsof Officer K het maar 1x zegt. Ik heb daarom deze timing aangepast en de font-size veranderd.
 * De twee stemmen in het fragment hebben meestal dezelfde toonhoogte, vaak erg monotoon. Maar soms zijn er verschillen, en deze moet ik juist weer gaan geven in de Closed Captions door het toevoegen van bijvoorbeeld meer: \[sighs softly]\.
@@ -143,7 +144,10 @@ Aanpassingen die ik zelf nog heb verzonnen na beiden feedback gesprekken:
 * Het lettertype van de robot en Officer K zou misschien wel hetzelfde kunnen zijn, dit kan zorgen voor betere leesbaarheid, nu verspringen de teksten vaak omdat de regellengte van de robot langer is dan die van Officer K, puur omdat het font van de robot monospace is waardoor de tekst vaak verspringt.
 * Er moet visueel worden weergegeven hoe de spanning van het geluid klinkt.
 
-#### Aanpassingen
+## Visie2
+blabla
+
+## Versie2
 Na het eerste feedback gesprek heb ik er voor gekozen om de Closed Captions van de geluiden en de ondertiteling van de stemmen om te draaien:
 
 ![closed-captions1](https://github.com/RobinAnsems/web-typography/blob/master/images/closed-captions1.png)
@@ -154,7 +158,7 @@ Na het eerste feedback gesprek heb ik er voor gekozen om de Closed Captions van 
 
 Ik heb hier voor gekozen omdat de lengte van de Closed Captions van de geluiden korter is dan de ondertiteling van de stemmen. Het is daarom beter en sneller leesbaar om eerst de korte Closed Caption te lezen en om daarna de lange Ondertiteling. Ook omdat mensen van links naar rechts lezen is het fijner voor de ogen om niet zo vaak van helemaal links naar helemaal rechts te moeten gaan, wat voorheen wel zo was.
 
-### Feedbackgesprek 2
+## Feedback2
 Na het tweede feedbackgesprek met Marie ben ik achter enkele dingen gekomen:
 * Er kunnen meer Closed Captions worden toegevoegd aan de ondertiteling van de robot en Officer K, dit komt omdat Marie de intonatie van de stemmen niet kan horen. Betekenis intonatie: "_Intonatie is een prosodische eenheid in de fonetiek. Bedoeld wordt de toonhoogte die tijdens de spraak door "stembuiging" wordt verkregen. In tegenstelling tot tonen wordt intonatie niet gebruikt om woorden van elkaar te onderscheiden, wel kan het de betekenis van een zin benadrukken of verduidelijken._" [bron](https://nl.wikipedia.org/wiki/Intonatie_(spraak)).
 * Ik heb gevraagd wat volgens Marie de beste/fijnste manier is om geluid visueel vorm te geven. Dit wist Marie niet precies, en dat is ook heel moeilijk, en dat begrijp ik. Dus ik heb Marie een voorbeeld laten zien van een Javascript Audio Visualizer: 
@@ -167,6 +171,7 @@ Marie vond dit erg interessant en vertelde dat visualisatie van geluid dmv van d
 Na het tweede feedbackgesprek met Vasilis ben ik ook achter enkele dingen gekomen:
 * We worden beoordeeld op 4 leerdoelen die [hier](https://github.com/cmda-minor-vid/web-typography-19-20#leerdoelen) in de opdracht staan beschreven.
 * Vasilis gaf dezelfde feedback als vorige keer namelijk: Ik moet nog veel meer nadenken over hoe ik de geluiden visueel wil gaan laten zien. De toevoeging van css-effecten is bij het fragment zeker nodig. Ik heb hier nog niets aan kunnen doen omdat ik heel veel heb nagedacht over hoe ik visueel wil laten zien hoe het geluid zou kunnen klinken. Het is een lastige maar uitdagende opdracht, puur omdat er geen voorbeelden zijn en niemand weet wat de correcte manier is om deze opdracht te maken. Ik heb daarom veel onderzoek gedaan naar de theorie achter het visualiseren van geluid. Het toevoegen van een Javascript Sound Visualizer zoals hierboven te zien was, wordt een grote uitdaging om te coderen, en dat is zeker niet genoeg volgens Vasilis om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken. Ik heb er daarom voor gekozen om te doen wat de meeste klasgenoten ook doen: kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. Maar ik wil er wel voor zorgen dat de filmeravring niet verloren gaat, dus kortom: de effecten mogen niet voor afleiding zorgen!
+
 
 ## Effecten
 De effecten die ik heb toegepast is...
