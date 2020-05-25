@@ -5,7 +5,7 @@
 #video-placeholder {
     width: 80vw;
     max-width: 1900px;
-    height: 89.2vh;
+    height: 90vh;
     margin: 0em auto;
     margin-top: 3.5em;
     display: block;
@@ -322,4 +322,47 @@ p {
 
 .sound10 {
     background-color: blue;
+}
+
+/*----------------*/
+/*------test------*/
+/*----------------*/
+
+
+#soundvisualizer {
+    z-index: -1;
+}
+
+#thefile {
+    padding-top: 0.2em;
+    position: absolute;
+    top: 1em;
+    left: 10em;
+    z-index: 100;
+    margin: 0;
+}
+
+#canvas {
+    position: absolute;
+    left: 13.3em;
+    bottom: 5.9em;
+    width: 80vw;
+    height: 5.3em;
+    background-color: black;
+}
+
+audio {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    width: 20em;
+    height: 1.75em;
+}
+
+.downloadknop {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    z-index: 100;
+    margin: 0;
 }

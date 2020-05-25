@@ -12,6 +12,24 @@
 </head>
 
 <body>
+
+    <!--------------------------------------->
+    <!------Javascript Sound Visualizer------>
+    <!--------------------------------------->
+
+    <div id="soundvisualizer">
+        <a href="images/BladeRunnerAudio.mp3" download="BladeRunnerAudio.mp3" class="downloadknop">
+            <button type="submit">Download MP3</button>
+        </a>
+        <input type="file" id="thefile" accept="audio/*" />
+        <canvas id="canvas"></canvas>
+        <audio id="audio" controls></audio>
+    </div>
+
+    <!--------------------------------->
+    <!------Video & ondertiteling------>
+    <!--------------------------------->
+
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vrP-_T-h9YM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <div id="video-placeholder"></div>
 
@@ -231,6 +249,8 @@
         <p class="voices">Voices</p>
     </div>
 
+
+
     <!-------------------->
     <!------scripten------>
     <!-------------------->
@@ -245,5 +265,6 @@
     </script>
     <script src="sounds.js"></script>
     <script src="yt.js"></script>
+    <script src="scripts.js"></script>
 
 </body></html>

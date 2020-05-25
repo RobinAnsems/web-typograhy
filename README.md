@@ -218,20 +218,48 @@ Ik denk bij deze opdracht vaak na over een oplossing voor in de toekomst. Een op
 * En als laatste ben ik er sterk van overtuigd dat de toevoeging van beeld niet (of niet genoeg) kan bijdragen aan de verduidelijking van het geluid voor Marie. Uitleg: denk bijvoorbeeld aan het voelen van de bass van een muziekje, deze verschillende toonhoogtes zorgen er voor dat de bass sneller of langzamer op en neer beweegt waardoor doven mensen zoals Marie een gevoel van geluid kunnen ervaren door simpelweg de bass van hun geluid-systeem aan te raken tijdens het beluisteren van (in dit geval het Blade Runner fragment) een muziekje. Maar helaas horen deze mogelijkheden niet bij de opdracht en moeten we dit probleem proberen op te lossen met CSS. Ik dacht daarom: Hoe kan ik aan Marie duidelijk maken wat de verschillende toonhoogtes zijn, zodat Marie ook kan zien hoe de geluiden zouden kunnen klinken, netzoals bij het aanraken van de bass van een speaker. Ik denk daarom dat een Javascript Sound Visualizer een hele goede manier is om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken of zodat Marie kan zien wanneer er bijvoorbeeld geen geluid afspeelt (dan zullen de toonhoogtes heel laag zijn). Marie heeft gezegd in het feedbackgesprek dat: "de visualisatie van geluid dmv van de toonhoogte + de toevoeging van bijbehorende Closed Captions, zouden misschien wel van grote toegevoegde waarde kunnen zijn". Volgens Vasilis moeten we deze opdracht oplossen doormiddel van CSS, wat ik snap natuurlijk, dat is de opdracht. Maar ik probeer 'out of the box' te denken om een mogelijke oplossing voor deze opdracht te vinden, omdat er geen voorbeelden zijn van hoe het wel moet.
 
 ## Versie3
+#### Ondertiteling
 Ik heb er voor gekozen om de ondertiteling en de closed captions op het fragment te plaatsen, netzoals bij een echte film met ondertiteling. Dit zorgt voor betere leesbaarheid en het zorgt er voor dat je nog minder met je ogen hoeft te bewegen dan voorheen. Voorheen stond de ondertiteling onder het fragment, het probleem hierbij was het volgende: Je hebt meer tijd nodig om de ondertiteling te lezen als deze onder het fragment staan in plaats van er op. Dit komt omdat het extra tijd kost om met je ogen van het fragment naar de ondertiteling te gaan en weer terug naar het fragment, deze afstand en tijd kan simpelweg worden opgelost door de ondertiteling op het fragment te zetten, netzoals bij een echte films met ondertiteling.
 
 ![closed-captions3](https://github.com/RobinAnsems/web-typography/blob/master/images/closed-captions3.png)
 
 Ook heb ik de groene kleur van de robot-ondertiteling aangepast van 'limegreen' naar 'springgreen' om het beter leesbaar te maken tegen de lichte achtergrond die je bij het interview ziet.
 
-## Effecten
-De effecten die ik heb toegepast is...
+#### Audio Visualizer
+Om de Audio Visualizer te gebruiken, moet je een aantal stappen doorlopen:
+* **Stap 1:** Download het mp3'tje linksbovenaan de pagina.
+![instructie1](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie1.png)
 
-## Code
-De code die ik heb geschreven is...
+* **Stap 2:** Upload het mp3'tje dat je zojuist hebt gedownload.
+![instructie2](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie2.png)
+
+* **Stap 3:** Het mp3'tje zal gelijk afspelen, je moet hem pauzeren door middel van de pauze-knop die je rechtsbovenin het scherm kan vinden. Zet het mp3'tje op pauze en zet de tijd op 0 seconden (het begin) zoals hier onder is te zien:
+
+(**Zorg er wel voor dat je het geluidsicoontje hebt AANstaan, deze kan je helemaal rechts vinden op de mp3-balk**)
+
+![instructie3](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie3.png)
+
+* **Stap 4:** Druk op de youtube-play-knop die je hier onder ziet:
+![instructie4](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie4.png)
+
+* **Stap 5:** Zet netzoals het mp3'tje ook het fragment op 0 seconden (het begin) zoals hier onder is te zien:
+
+(**Zorg er wel voor dat je het geluidsicoontje hebt UITstaan, deze staat rechtsonderin van het fragment**)
+
+![instructie5](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie5.png)
+
+* **Stap 6:** Als dit allemaal gelukt is, is het een kwestie van snelheid om beiden tegelijk af te spelen, wat je moet doen is het volgende: klik op het fragment om hem af te spelen, als je dit gedaan hebt wil je zo snel mogelijk op de play-knop van het mp3'tje drukken (die rechtsbovenin het scherm staat). Misschien moet je het een paar keer over doen, maar hoe sneller je mp3'tje af kan laten spelen nadat je het fragment hebt aangezet, hoe beter! Succes! 
+
+#### Effecten
+
+
+
 
 ## Bronnen
-De bronnen die ik heb gebruikt zijn...
+De bronnen die ik heb gebruikt zijn:
+* [Fragment](https://www.youtube.com/watch?v=vrP-_T-h9YM)
+* [Audio van Fragment gedownload met FLVTO](https://www.flvto.biz/nl69/)
+* [Javascript Audio Visualizer](https://codepen.io/nfj525/pen/rVBaab)
 
 #### Socials
 dit is waar je mij kan vinden:
