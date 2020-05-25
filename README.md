@@ -244,31 +244,45 @@ Om de Audio Visualizer te gebruiken, moet je een aantal stappen doorlopen:
 
 * **Stap 5:** Zet netzoals het mp3'tje ook het fragment op 0 seconden (het begin) zoals hier onder is te zien:
 
-(**Zorg er wel voor dat je het geluidsicoontje hebt UITstaan, deze staat rechtsonderin van het fragment**)
+(**Zorg er wel voor dat je het geluidsicoontje hebt UITstaan, deze staat linksonderin van het fragment**)
 
 ![instructie5](https://github.com/RobinAnsems/web-typography/blob/master/images/instructie5.png)
 
 * **Stap 6:** Als dit allemaal gelukt is, is het een kwestie van snelheid om beiden tegelijk af te spelen, wat je moet doen is het volgende: klik op het fragment om hem af te spelen, als je dit gedaan hebt wil je zo snel mogelijk op de play-knop van het mp3'tje drukken (die rechtsbovenin het scherm staat). Misschien moet je het een paar keer over doen, maar hoe sneller je mp3'tje af kan laten spelen nadat je het fragment hebt aangezet, hoe beter! Succes! 
+
+En zo ziet het er uit als je het fragment aan het bekijken bent met Javascript Audio Visualisatie (de high frequency buzzer-piek is mooi te zien. Te vinden precies onder de 'q' van 'frequency'.):
+
+![audiovisualizervoorbeeld](https://github.com/RobinAnsems/web-typography/blob/master/images/audiovisualizervoorbeeld.png)
+
 
 #### Effecten
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
-* [Fragment](https://www.youtube.com/watch?v=vrP-_T-h9YM)
-* [Audio van Fragment gedownload met FLVTO](https://www.flvto.biz/nl69/)
+* [Het fragment](https://www.youtube.com/watch?v=vrP-_T-h9YM)
+* [Youtube mp3-downloader FLVTO](https://www.flvto.biz/nl69/)
 * [Javascript Audio Visualizer](https://codepen.io/nfj525/pen/rVBaab)
 
-#### Socials
-dit is waar je mij kan vinden:
-*   🌐[Portfolio website](https://robinansems.github.io/index.html)
-*   📷[Instagram](https://www.instagram.com/robinansems/)
-*   🐦[Twitter](https://twitter.com/robinansems)
-*   📹[Youtube](https://www.youtube.com/user/robinansems00)
-*   📚[Facebook](https://www.facebook.com/profile.php?id=100005222555664)
-
-
-
-
+## Socials
+Dit is waar je mij kan vinden:
+*   🌐[ Portfolio website](https://robinansems.github.io/index.html)
+*   📷[ Instagram](https://www.instagram.com/robinansems/)
+*   🐦[ Twitter](https://twitter.com/robinansems)
+*   📹[ Youtube](https://www.youtube.com/user/robinansems00)
+*   📚[ Facebook](https://www.facebook.com/profile.php?id=100005222555664)
