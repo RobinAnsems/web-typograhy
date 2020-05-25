@@ -14,6 +14,9 @@ Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleidi
 *   [Visie2](#visie2)
 *   [Versie2](#versie2)
 *   [Feedback2](#feedback2)
+*   [Visie3](#visie3)
+*   [Versie3](#versie4)
+*   [Feedback3](#feedback3)
 *   [Effecten](#effecten)
 *   [Code](#code)
 *   [Bronnen](#bronnen)
@@ -60,7 +63,7 @@ Sinds Marie onze doelgroep is voor de opdracht, en we het fragment voor haar moe
 * Marie vindt het genre van Blade Runner tof, ze kijkt veel series, maar heeft weinig geduld voor films.
 * Marie kijkt series als Walking Dead en Friends.
 * De ondertiteling in Walking Dead vindt ze bijzonder, vooral als er iemand doodgaat.
-* 'spannende muziek houdt niet zo veel in als ondertiteling, vindt Marie, en dit kan ik zer begrijpen.
+* 'spannende muziek houdt niet zo veel in als ondertiteling, vindt Marie, en dit kan ik zeker begrijpen.
 * De manier van spreken wordt vaak niet laten zien in ondertiteling.
 * De kant van het geluid kan heel erg belangrijk zijn. Iemand die buiten het beeld praat is belangrijk.
 * Marie vindt jaren 80 actie films leuk. Vooral die van Arnold Schwarzenegger.
@@ -82,6 +85,10 @@ Uit het kennismakingsgesprek heb ik enkele aandachtspunten gehaald.
 * De sfeer van een film is belangrijk, alle geluiden zijn belangrijk, achtergrond tot alle geluidseffecten.
 * De timing van de dialoog is spannend, de stem van de robot komt machtig over omdat er snel wordt geantwoord na het antwoord van de hoofdpersoon, hier kan visueel wat mee worden gedaan.
 * Closed Captions bestaan grotendeels uit twee delen. 1. stemmen van personen, deze worden weergegeven doormiddel van (ronde haakjes) en 2. geluiden, deze worden weergegeven doormiddel van \[blokhaken\].
+
+## Uitleg onderstaande readme
+Ik heb mijn readme opgedeeld in 3 delen, 3 weken. Elk deel of elke week heb ik 3 kopjes gegeven: Visie, Versie en feedback.
+Elke week veranderde mijn visie op deze opdracht, puur omdat er geen voorbeelden zijn en niemand weet wat de correcte manier is om deze opdracht te maken. In mijn Visie leg ik telkens uit hoe ik over de opdracht denk en hoe ik er over nadenk om deze opdracht te maken. Bij Versie laat ik zien wat ik heb aangepast ten opzichte van de week ervoor. Bij feedback laat ik zien welke feedback ik heb gekregen en welke feedback ik ga toepassen in de versie er na.
 
 ## Visie1
 Na het zien van werk van verschillende medestudenten en werk van oudstudenten, zag ik heel vaak voorkomen dat studenten proberen om geluiden visueel te laten zien doormiddel van kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. Ik denk niet dat dit de juiste manier is om Marie er bewust van te maken van hoe het geluid zou kunnen klinken. Ik denk dat het gebruik van iconen en afbeeldingen een beter beeld geven van hoe het geluid zou kunnen klinken. 
@@ -175,6 +182,20 @@ Marie vond dit erg interessant en vertelde dat visualisatie van geluid dmv van d
 Na het tweede feedbackgesprek met Vasilis ben ik ook achter enkele dingen gekomen:
 * We worden beoordeeld op 4 leerdoelen die [hier](https://github.com/cmda-minor-vid/web-typography-19-20#leerdoelen) in de opdracht staan beschreven.
 * Vasilis gaf dezelfde feedback als vorige keer namelijk: Ik moet nog veel meer nadenken over hoe ik de geluiden visueel wil gaan laten zien. De toevoeging van css-effecten is bij het fragment zeker nodig. 
+
+## Visie3
+Ik denk bij deze opdracht vaak na over een oplossing voor in de toekomst. Een oplossing die herbruikbaar is en makkelijk te implementeren is bij andere films. Dat is daarom ook mijn derde en laatste visie op deze opdracht. En die visie is het volgende:
+* Hoe meer closed captions, hoe beter (maar niet te veel). Uitleg: Voor Marie is het nutteloos om kleuren, lichtflitsen en effecten zonder dat er staat beschreven wat deze moeten voorstellen. Daarom zijn uitgebreide closed captions hardstikke belangrijk voor Marie. Zelfs als het stil is in het fragement is de volgende closed caption hardstikke belangrijk: \[silence\].
+* Leesbaarheid moet optimaal zijn. Uitleg: als er onderteling en closed captions aanwezig zijn is erg gewoonweg veel te lezen als je een fragment bekijkt waarin twee personen een vlot interview afleggen (zoals in ons fragment). Het is daarom voor Marie hardstikke belangrijk dat ze de ondertiteling en de closed captions goed en snel kan lezen zodat ze kan kijken naar wat er in de film gebeurd. Als Marie 90% van de tijd bezig is om de ondertiteling te lezen gaat een deel van de filmervaring verloren, en dat is jammer.
+* Ik wil er voor zorgen dat de filmervaring niet verloren gaat, de effecten mogen niet voor afleiding zorgen. Uitleg: Het beeldmateriaal moet blijven zoals het is, de film is en blijft de film. De Effecten die wel worden toegepast moeten **onopvallende effecten** zijn die de sfeer en het geluid aan Marie op een minimalistische manier duidelijk maken.
+* En als laatste ben ik er sterk van overtuigd dat de toevoeging van beeld niet (of niet genoeg) kan bijdragen aan de verduidelijking van het geluid voor Marie. Uitleg: denk bijvoorbeeld aan het voelen van de bass van een muziekje, deze verschillende toonhoogtes zorgen er voor dat de bass sneller of langzamer op en neer beweegt waardoor doven mensen zoals Marie een gevoel van geluid kunnen ervaren door simpelweg de bass van hun geluid-systeem aan te raken tijdens het beluisteren van (in dit geval het Blade Runner fragment) een muziekje. Maar helaas horen deze mogelijkheden niet bij de opdracht en moeten we dit probleem proberen op te lossen met css. Ik dacht daarom: Hoe kan ik aan Marie duidelijk maken wat de verschillende toonhoogtes zijn, zodat Marie ook kan zien hoe de geluiden zouden kunnen klinken, netzoals bij het aanraken van de bass van een speaker. Ik denk daarom dat een Javascript Sound Visualizer een hele goede manier is om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken of zodat Marie kan zien wanneer er bijvoorbeeld geen geluid afspeelt (dan zullen de toonhoogtes heel laag zijn). Marie heeft gezegd in het feedbackgesprek dat: "de visualisatie van geluid dmv van de toonhoogte + de toevoeging van bijbehorende Closed Captions, zouden misschien wel van grote toegevoegde waarde kunnen zijn". Volgens Vasilis moeten we deze opdracht oplossen doormiddel van CSS, wat ik snap natuurlijk, dat is de opdracht. Maar ik probeer 'out of the box' te denken om een oplossing voor deze opdracht te vinden, omdat er geen voorbeelden zijn van hoe het wel moet.
+
+## Versie3
+Ik heb er voor gekozen om de ondertiteling en de closed captions op het fragment te plaatsen, netzoals bij een echte film. Dit zorgt voor betere leesbaarheid en het zorgt er voor dat je nog minder met je ogen hoeft te bewegen dan voorheen:
+
+![closed-captions3](https://github.com/RobinAnsems/web-typography/blob/master/images/closed-captions3.png)
+
+Ook heb ik de groene kleur van de robot-ondertiteling aangepast van limegreen naar springgreen om het beter leesbaar te maken tegen de lichte achtergrond die je bij het interview ziet.
 
 ## Effecten
 De effecten die ik heb toegepast is...

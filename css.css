@@ -3,14 +3,15 @@
 /*---------------------*/
 
 #video-placeholder {
-    width: 100vw;
+    width: 80vw;
     max-width: 1900px;
-    height: 80vh;
-    margin: 3em auto;
+    height: 89.2vh;
+    margin: 0em auto;
+    margin-top: 3.5em;
     display: block;
 }
 
-html {
+body {
     background-color: black;
 }
 
@@ -20,8 +21,9 @@ html {
 
 .voice1 {
     font-family: "Brenner Mono Medium";
-    color: limegreen;
+    color: springgreen;
     font-size: 27.5px;
+    position: absolute;
     margin: 0 0 0 16.5em;
 }
 
@@ -29,14 +31,14 @@ html {
     font-family: "Brenner Sans Medium";
     color: white;
     font-size: 30px;
-    margin: 0 0 0 15em;
+    margin: 0 0 0 14.3em;
 }
 
 .voice3 {
     font-family: "Brenner Sans Condensed Bold";
     color: red;
     font-size: 35px;
-    margin: 0 0 0 12.6em;
+    margin: 0 0 0 10.7em;
 }
 
 /*-------------------------------*/
@@ -46,7 +48,7 @@ html {
 p {
     margin-top: -1em;
     padding-left: 2em;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 /*------------------------------------------------------*/
@@ -55,14 +57,14 @@ p {
 
 .titel1 {
     position: absolute;
-    top: 86vh;
-    left: 2em;
+    top: 68vh;
+    left: 18.5em;
 }
 
 .titel2 {
     position: absolute;
-    top: 86vh;
-    left: 30em;
+    top: 68vh;
+    left: 45.3em;
 }
 
 /*------------------------------------------------*/
@@ -91,7 +93,7 @@ p {
     font-family: "Brenner Sans";
     color: white;
     font-size: 30px;
-    margin: 0;
+    margin: 0 0 0 0;
 }
 
 .soundcaption1 {
@@ -173,7 +175,8 @@ p {
     opacity: 0;
     transition: .05s;
     position: absolute;
-    top: 88vh;
+    top: 70.75vh;
+    left: 9.2em;
 }
 
 #closed-captions .on {
@@ -271,4 +274,52 @@ p {
 
 .p43.on span {
     font-size: 40px;
+}
+
+/*------------------------------------------------*/
+/*------Styling classes die op de body komen------*/
+/*------------------------------------------------*/
+
+.sound0 {
+    background-color: red;
+}
+
+.sound1 {
+    background-color: blue;
+}
+
+.sound2 {
+    background-color: green;
+}
+
+.sound3 {
+    background-color: red;
+}
+
+.sound4 {
+    background-color: blue;
+}
+
+.sound5 {
+    background-color: green;
+}
+
+.sound6 {
+    background-color: red;
+}
+
+.sound7 {
+    background-color: blue;
+}
+
+.sound8 {
+    background-color: green;
+}
+
+.sound9 {
+    background-color: red;
+}
+
+.sound10 {
+    background-color: blue;
 }
