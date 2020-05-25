@@ -228,25 +228,25 @@ Ook heb ik de groene kleur van de robot-ondertiteling aangepast van 'limegreen' 
 #### Audio Visualizer
 Om de Audio Visualizer te gebruiken, moet je een aantal stappen doorlopen:
 * **Stap 1:** Download het mp3'tje linksbovenaan de pagina.
-![instructie1](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie1.png)
+![instructie1](https://github.com/RobinAnsems/web-typography/blob/master/images/instructie1.png)
 
 * **Stap 2:** Upload het mp3'tje dat je zojuist hebt gedownload.
-![instructie2](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie2.png)
+![instructie2](https://github.com/RobinAnsems/web-typography/blob/master/images/instructie2.png)
 
 * **Stap 3:** Het mp3'tje zal gelijk afspelen, je moet hem pauzeren door middel van de pauze-knop die je rechtsbovenin het scherm kan vinden. Zet het mp3'tje op pauze en zet de tijd op 0 seconden (het begin) zoals hier onder is te zien:
 
 (**Zorg er wel voor dat je het geluidsicoontje hebt AANstaan, deze kan je helemaal rechts vinden op de mp3-balk**)
 
-![instructie3](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie3.png)
+![instructie3](https://github.com/RobinAnsems/web-typography/blob/master/images/instructie3.png)
 
 * **Stap 4:** Druk op de youtube-play-knop die je hier onder ziet:
-![instructie4](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie4.png)
+![instructie4](https://github.com/RobinAnsems/web-typography/blob/master/images/instructie4.png)
 
 * **Stap 5:** Zet netzoals het mp3'tje ook het fragment op 0 seconden (het begin) zoals hier onder is te zien:
 
 (**Zorg er wel voor dat je het geluidsicoontje hebt UITstaan, deze staat rechtsonderin van het fragment**)
 
-![instructie5](https://github.com/RobinAnsems/web-animation/blob/master/images/instructie5.png)
+![instructie5](https://github.com/RobinAnsems/web-typography/blob/master/images/instructie5.png)
 
 * **Stap 6:** Als dit allemaal gelukt is, is het een kwestie van snelheid om beiden tegelijk af te spelen, wat je moet doen is het volgende: klik op het fragment om hem af te spelen, als je dit gedaan hebt wil je zo snel mogelijk op de play-knop van het mp3'tje drukken (die rechtsbovenin het scherm staat). Misschien moet je het een paar keer over doen, maar hoe sneller je mp3'tje af kan laten spelen nadat je het fragment hebt aangezet, hoe beter! Succes! 
 
