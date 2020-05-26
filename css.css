@@ -13,6 +13,7 @@
 
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 /*------------------------------------------------*/
@@ -24,21 +25,21 @@ body {
     color: springgreen;
     font-size: 27.5px;
     position: absolute;
-    margin: 0 0 0 16.5em;
+    margin: 0 0 0 19em;
 }
 
 .voice2 {
     font-family: "Brenner Sans Medium";
     color: white;
     font-size: 30px;
-    margin: 0 0 0 14.3em;
+    margin: 0 0 0 16.8em;
 }
 
 .voice3 {
     font-family: "Brenner Sans Condensed Bold";
     color: red;
     font-size: 35px;
-    margin: 0 0 0 10.7em;
+    margin: 0 0 0 13.2em;
 }
 
 /*-------------------------------*/
@@ -48,7 +49,7 @@ body {
 p {
     margin-top: -1em;
     padding-left: 2em;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 /*------------------------------------------------------*/
@@ -58,13 +59,13 @@ p {
 .titel1 {
     position: absolute;
     top: 68vh;
-    left: 18.5em;
+    left: 13.5em;
 }
 
 .titel2 {
     position: absolute;
     top: 68vh;
-    left: 45.3em;
+    left: 45em;
 }
 
 /*------------------------------------------------*/
@@ -167,6 +168,34 @@ p {
     margin: 0;
 }
 
+.soundcaption11 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.soundcaption12 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 1.5em 0 0 0;
+}
+
+.soundcaption13 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.soundcaption14 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
 /*-----------------------------------------------------*/
 /*------styling van hoe de ondertiteling reageerd------*/
 /*-----------------------------------------------------*/
@@ -176,7 +205,7 @@ p {
     transition: .05s;
     position: absolute;
     top: 70.75vh;
-    left: 9.2em;
+    left: 6.5em;
 }
 
 #closed-captions .on {
@@ -276,57 +305,9 @@ p {
     font-size: 40px;
 }
 
-/*------------------------------------------------*/
-/*------Styling classes die op de body komen------*/
-/*------------------------------------------------*/
-
-.sound0 {
-    background-color: red;
-}
-
-.sound1 {
-    background-color: blue;
-}
-
-.sound2 {
-    background-color: green;
-}
-
-.sound3 {
-    background-color: red;
-}
-
-.sound4 {
-    background-color: blue;
-}
-
-.sound5 {
-    background-color: green;
-}
-
-.sound6 {
-    background-color: red;
-}
-
-.sound7 {
-    background-color: blue;
-}
-
-.sound8 {
-    background-color: green;
-}
-
-.sound9 {
-    background-color: red;
-}
-
-.sound10 {
-    background-color: blue;
-}
-
-/*----------------*/
-/*------test------*/
-/*----------------*/
+/*---------------------------------------*/
+/*------Javascript Sound Visualizer------*/
+/*---------------------------------------*/
 
 
 #soundvisualizer {
@@ -344,8 +325,8 @@ p {
 
 #canvas {
     position: absolute;
-    left: 13.3em;
-    bottom: 5.9em;
+    left: 12em;
+    bottom: 5.1em;
     width: 80vw;
     height: 5.3em;
     background-color: black;
@@ -365,4 +346,278 @@ audio {
     left: 1em;
     z-index: 100;
     margin: 0;
+}
+
+/*------------------------------------------------*/
+/*------Styling classes die op de body komen------*/
+/*------------------------------------------------*/
+
+.sound0 #trommeldiv {
+    animation-name: trommel;
+    animation-duration: 1.85s;
+    animation-iteration-count: 10;
+}
+
+.sound1 #alarmbuzzerlinks {
+    animation: alarmbuzzer 1s linear;
+    background-color: red;
+    box-shadow: 0.5em 0 3em 3em red;
+}
+
+.sound1 #alarmbuzzerrechts {
+    animation: alarmbuzzer 1s linear;
+    background-color: red;
+    box-shadow: 0.5em 0 3em 3em red;
+}
+
+.sound2 {}
+
+.sound3 {}
+
+.sound4 {}
+
+.sound5 {}
+
+.sound6 {}
+
+.sound7 {}
+
+.sound8 {}
+
+.sound9 {}
+
+.sound10 {
+    animation: highfrequencytone 0.1s cubic-bezier(.36, .07, .19, .97) both infinite;
+    animation-iteration-count: 418;
+    backface-visibility: hidden;
+}
+
+.sound11 #tauntingmusiclinks {
+    animation-name: tauntingmusic;
+    animation-duration: 50s;
+    animation-iteration-count: 1;
+    background: url(images/tauntingmusic.gif);
+    transform: scale(1.54);
+    transform-origin: top left;
+    background-repeat: no-repeat;
+    visibility: visible;
+    z-index: -1;
+    position: absolute;
+    width: 120em;
+    height: 60.5em;
+    top: 0;
+    left: -21em;
+    opacity: 0;
+}
+
+.sound11 #tauntingmusicrechts {
+    animation-name: tauntingmusic;
+    animation-duration: 50s;
+    animation-iteration-count: 1;
+    background: url(images/tauntingmusic.gif);
+    transform: scale(1.54);
+    transform-origin: top right;
+    background-repeat: no-repeat;
+    visibility: visible;
+    z-index: -1;
+    position: absolute;
+    width: 120em;
+    height: 60.5em;
+    top: 0;
+    left: 152.5em;
+    opacity: 0;
+}
+
+.sound12 #computerbeepscircle {
+    animation-name: computerbeeps;
+    animation-duration: 0.1s;
+    animation-iteration-count: 8;
+}
+
+/*----------------------------------*/
+/*------Stylen van de Effecten------*/
+/*----------------------------------*/
+
+#trommeldiv {
+    width: 106em;
+    height: 2.5em;
+    position: absolute;
+    background-color: transparent;
+    opacity: 1;
+    left: 7em;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+#trommel {
+    width: 106em;
+    height: 0.5em;
+    position: absolute;
+    background-color: white;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0.5em 0 3em 3em white;
+}
+
+.drum {
+    position: absolute;
+    top: 0em;
+    left: 27em;
+    color: black;
+    text-shadow: 0px 0px 5px black, 0px 0px 25px black, 0px 0px 25px black;
+    font-family: "Brenner Sans Bold";
+    font-size: 30px;
+    padding: 0;
+}
+
+#alarmbuzzerlinks {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#alarmbuzzerrechts {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#tauntingmusic {
+    width: 120em;
+    height: 60.5em;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+}
+
+#computerbeepscircle {
+    width: 120em;
+    position: absolute;
+    height: 60.5em;
+    margin: 0;
+    background-color: red;
+    top: 0;
+    left: 0;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    z-index: -1;
+    opacity: 0;
+}
+
+/*---------------------*/
+/*------Keyframes------*/
+/*---------------------*/
+
+@-webkit-keyframes trommel {
+    0% {
+        opacity: 0;
+
+    }
+
+    1% {
+        opacity: 1;
+
+    }
+
+    50% {
+        opacity: 1;
+
+    }
+    51% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes alarmbuzzer {
+    0% {
+        opacity: 0;
+        width: 0.1em;
+    }
+
+    1% {
+        opacity: 0.75;
+        width: 0.25em;
+    }
+
+    50% {
+        width: 2.25em;
+    }
+
+    99% {
+        opacity: 0.75;
+        width: 0.25em;
+    }
+
+    100% {
+        opacity: 0;
+        width: 0.1em;
+    }
+}
+
+@-webkit-keyframes highfrequencytone {
+
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+@-webkit-keyframes computerbeeps {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.35;
+    }
+
+    99% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes tauntingmusic {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0.3;
+    }
+
+    99% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }

@@ -15,10 +15,8 @@ Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleidi
 *   [Versie2](#versie2)
 *   [Feedback2](#feedback2)
 *   [Visie3](#visie3)
-*   [Versie3](#versie4)
-*   [Feedback3](#feedback3)
-*   [Effecten](#effecten)
-*   [Code](#code)
+*   [Versie3](#versie3)
+*   [Afsluiting](#afsluiting)
 *   [Bronnen](#bronnen)
 *   [Socials](#socials)
 
@@ -254,24 +252,456 @@ En zo ziet het er uit als je het fragment aan het bekijken bent met Javascript A
 
 ![audiovisualizervoorbeeld](https://github.com/RobinAnsems/web-typography/blob/master/images/audiovisualizervoorbeeld.png)
 
+#### Manier van spreken (intonatie)
+Ik heb na feedback van Marie meer closed captions aan de ondertiteling toegepast waarin ik laat zien op welke manier de stemmen worden uitgesproken. Dit zijn alle closed captions in de ondertiteling die ik heb toegevoegd:
+
+(deel 1 van het fragment)
+
+* (👨🏼‍🦲 Bald guy) \[angry tone\] Fuck off, skin-job!
+* (🤖 Robot) \[approving tone\] We're done.
+* (🤖 Robot) \[sighs softly\] Constant K.
+
+(deel 2 van het fragment)
+
+* (🤖 Robot) \[spooky tone\] What’s it like to hold the hand of someone you love?
+* (🤖 Robot) \[disapproving tone\] You're not even close to baseline.
+
+De rest van het fragent spreken Officer K en de robot de tekst vrij neutraal en monotoon uit. Ik vind het een beetje overbodig om bij elke zin dan het volgende neer te zetten: \[monotone voice\]. Dus dat heb ik weg gelaten.
+
+#### Closed Captions
+Dit zijn alle closed captions (tekstuele vertaling van de geluidseffecten) die ik heb toegevoegd aan het fragment:
+
+* \[🎶🥁 Heavy drum sounds\]
+* \[🚨 Alarmbuzzer\]
+* \[📯 High frequency Siren\]
+* \[🔊 People Talking on background\]
+* \[🎵🚨 Low frequency Buzzer\] (3x)
+* \[🎵🚨 High frequency Buzzer\] (3x)
+* \[🎵🔊 High frequency tone keeps increasing\]
+* \[🔇 Silence\] (2x)
+* \[🎶 Taunting music\]
+* \[🎵🔊 Computer beeps\]
+
+Ik heb \[🔇 Silence\] toegevoegd omdat ik het belangrijk vind dat Marie weet wanneer er geen muziek of geluidseffect afspeelt, en het simpel weg stil is in het fragment. Als hier geen closed caption zal staan gaat ze zich afvragen welk geluid er zal afspelen op het moment, maar door het toevoegen van een simpele caption zoals \[🔇 Silence\], wordt dit al snel duidelijk.
 
 #### Effecten
 
+##### Heavy drum sounds
+\[🎶🥁 Heavy drum sounds\] heb ik visueel laten zien door op de timing van de drums een div met witte boxshadow, wel en niet laten zien doormiddel van 'opacity:0' en 'opacity:1':
 
+![drum](https://github.com/RobinAnsems/web-typography/blob/master/images/drum.png)
 
+Ik heb de tekst 'drum' op het effect gezet om aan Marie te laten weten wat precies die witte effecten onderaan haar beeld zijn. Het is simpelweg een kleine indicatie, kort maar krachtig.
 
+Zo ziet de HTML-code er uit van het drum-effect:
 
+```html
+    <div id="trommeldiv">
+        <div id="trommel">
+            <p class="drum">drum</p>
+        </div>
+    </div>
+```
 
+Zo ziet de CSS-code er uit van het drum-effect:
 
+```css
+/* Dit is de class sound0 die op 1.5 seconden wordt aangemaakt op de body, ik geef de class een animatie-naam, een animatie-tijd en geef aan hoe vaak de animatie moet plaatsvinden, in dit geval hoor je 10 keer een drum, dus vandaar de 10. */
+.sound0 #trommeldiv {
+    animation-name: trommel;
+    animation-duration: 1.85s;
+    animation-iteration-count: 10;
+}
 
+/* Dit ID geeft de groote en de plaats aan van het effect. */
+#trommeldiv {
+    width: 106em;
+    height: 2.5em;
+    position: absolute;
+    background-color: transparent;
+    opacity: 1;
+    left: 7em;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+}
 
+/* Dit ID styled het effect met een witte box-shadow. */
+#trommel {
+    width: 106em;
+    height: 0.5em;
+    position: absolute;
+    background-color: white;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0.5em 0 3em 3em white;
+}
 
+/* Dit ID styled de tekst 'drum' die op het effect te zien is. */
+.drum {
+    position: absolute;
+    top: 0em;
+    left: 27em;
+    color: black;
+    text-shadow: 0px 0px 5px black, 0px 0px 25px black, 0px 0px 25px black;
+    font-family: "Brenner Sans Bold";
+    font-size: 30px;
+    padding: 0;
+}
 
+/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten zien doormiddel van opacity. */
+@-webkit-keyframes trommel {
+    0% {
+        opacity: 0;
 
+    }
 
+    1% {
+        opacity: 1;
 
+    }
 
+    50% {
+        opacity: 1;
 
+    }
+    51% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+```
+
+##### Alarmbuzzer
+\[🚨 Alarmbuzzer\] heb ik visueel laten zien door 2 rode balken aan de rechter- en linkerkant van het fragment op te laten lichten:
+
+![alarmbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/alarmbuzzer.png)
+
+Ik heb voor rood gekozen omdat ik dit associeer met een alarm.
+
+Zo ziet de HTML-code er uit van de alarmbuzzer:
+
+```html
+    <div id="alarmbuzzerlinks"></div>
+    <div id="alarmbuzzerrechts"></div>
+```
+
+Zo ziet de CSS-code er uit van de alarmbuzzer:
+
+```css
+/* Dit is de class sound1 die op 9 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 1 seconden en een rode box-shadow. */
+.sound1 #alarmbuzzerlinks {
+    animation: alarmbuzzer 1s linear;
+    background-color: red;
+    box-shadow: 0.5em 0 3em 3em red;
+}
+
+.sound1 #alarmbuzzerrechts {
+    animation: alarmbuzzer 1s linear;
+    background-color: red;
+    box-shadow: 0.5em 0 3em 3em red;
+}
+
+/* Deze 2 ID's plaatsen de alarms op de juiste plek. */
+#alarmbuzzerlinks {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#alarmbuzzerrechts {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten, en hoe groot het effect moet zijn. */
+@-webkit-keyframes alarmbuzzer {
+    0% {
+        opacity: 0;
+        width: 0.1em;
+    }
+
+    1% {
+        opacity: 0.75;
+        width: 0.25em;
+    }
+
+    50% {
+        width: 2.25em;
+    }
+
+    99% {
+        opacity: 0.75;
+        width: 0.25em;
+    }
+
+    100% {
+        opacity: 0;
+        width: 0.1em;
+    }
+}
+```
+
+##### High frequency Siren
+\[📯 High frequency Siren\] heb ik visueel laten zien door :
+
+![sirene](https://github.com/RobinAnsems/web-typography/blob/master/images/sirene.png)
+
+blabla
+
+Zo ziet de HTML-code er uit van de sirene:
+
+```html
+
+```
+
+Zo ziet de CSS-code er uit van de sirene:
+
+```css
+/**/
+
+```
+
+##### Low frequency Buzzer
+\[🎵🚨 Low frequency Buzzer\] heb ik visueel laten zien door :
+
+![lowbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/lowbuzzer.png)
+
+blabla
+
+Zo ziet de HTML-code er uit van de 'low frequency Buzzer':
+
+```html
+
+```
+
+Zo ziet de CSS-code er uit van de 'low frequency Buzzer':
+
+```css
+/**/
+
+```
+
+##### High frequency Buzzer
+\[🎵🚨 High frequency Buzzer\] heb ik visueel laten zien door :
+
+![highbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/highbuzzer.png)
+
+blabla
+
+Zo ziet de HTML-code er uit van de 'high frequency Buzzer':
+
+```html
+
+```
+
+Zo ziet de CSS-code er uit van de 'high frequency Buzzer':
+
+```css
+/**/
+
+```
+
+##### High frequency tone keeps increasing
+\[🎵🔊 High frequency tone keeps increasing\] heb ik visueel laten zien door het beeld steeds sneller te laten flikkeren:
+
+![hightone](https://github.com/RobinAnsems/web-typography/blob/master/images/hightone.gif)
+
+Ik heb gekozen voor een flikkerend beeld omdat ik dit wel vond passen bij een hoge frequentie toon, die steeds hoger wordt.
+
+Zo ziet de CSS-code er uit van de 'hightone':
+
+```css
+/* Dit is de class sound10 die op 33 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 0.1 seconden en een teller van 418, omdat het effect 41,8 seconden lang moet duren. */
+.sound10 {
+    animation: highfrequencytone 0.1s cubic-bezier(.36, .07, .19, .97) both infinite;
+    animation-iteration-count: 418;
+    backface-visibility: hidden;
+}
+
+/* Deze Keyframe zorgt er voor dat de kleur wordt veranderd, zodat het als een flikkerend beeld uit komt te zien. */
+@-webkit-keyframes highfrequencytone {
+
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
+```
+
+##### Taunting music
+\[🎶 Taunting music\] heb ik visueel laten zien door een zelfgemaakt gifje. Ik heb de audio van het 2de deel van het fragment online opgezocht en [hier](https://youtu.be/nf0llz_Rfd0?t=461) gevonden. Het liedje heet: "Someone Lived This", gemaakt door Hans Zimmer en Benjamin Wallfisch. Ik heb toen het audiofragment geüpload op de website genaamd: "[Renderforest.com](https://www.renderforest.com/music-visualisations)". Deze website maakt van audio verschillende visualisaties. Deze visualisatie heb ik een gif van gemaakt en achter het fragment geplaatst. Het gifje reageerd dus in principe perfect op de audio in het fragment:
+
+![tauntingmusicvoorbeeld](https://github.com/RobinAnsems/web-typography/blob/master/images/tauntingmusicvoorbeeld.gif)
+
+Ik heb gekozen voor een gifje omdat ik het lastig vond om de verschillende toonhoogtes uit de audio te visualiseren, dus daarom heb ik een gif gebruikt omdat dit te versimpelen.
+
+Zo ziet de HTML-code er uit van de 'tauntingmusic':
+
+```html
+    <div id="tauntingmusiclinks"></div>
+    <div id="tauntingmusicrechts"></div>
+```
+
+Zo ziet de CSS-code er uit van de 'tauntingmusic':
+
+```css
+/* Dit is de class sound11 die op 86 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 50 seconden en een teller van 1, omdat het effect 50 seconden lang moet duren. */
+.sound11 #tauntingmusiclinks {
+    animation-name: tauntingmusic;
+    animation-duration: 50s;
+    animation-iteration-count: 1;
+    background: url(images/tauntingmusic.gif);
+    transform: scale(1.54);
+    transform-origin: top left;
+    background-repeat: no-repeat;
+    visibility: visible;
+    z-index: -1;
+    position: absolute;
+    width: 120em;
+    height: 60.5em;
+    top: 0;
+    left: -21em;
+    opacity: 0;
+}
+
+.sound11 #tauntingmusicrechts {
+    animation-name: tauntingmusic;
+    animation-duration: 50s;
+    animation-iteration-count: 1;
+    background: url(images/tauntingmusic.gif);
+    transform: scale(1.54);
+    transform-origin: top right;
+    background-repeat: no-repeat;
+    visibility: visible;
+    z-index: -1;
+    position: absolute;
+    width: 120em;
+    height: 60.5em;
+    top: 0;
+    left: 152.5em;
+    opacity: 0;
+}
+
+/* Deze ID plaatst het effect op de juiste plek. */
+#tauntingmusic {
+    width: 120em;
+    height: 60.5em;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+}
+
+/* Deze Keyframe zorgt er dat het effect wel en niet wordt laten zien op verschillende punten. */
+@-webkit-keyframes tauntingmusic {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0.3;
+    }
+
+    99% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+```
+
+##### Computer beeps
+\[🎵🔊 Computer beeps\] heb ik visueel laten zien door een rode ellipse achter het fragment te laten knipperen:
+
+![computerbeep](https://github.com/RobinAnsems/web-typography/blob/master/images/computerbeep.gif)
+
+blabla
+
+Zo ziet de HTML-code er uit van de 'computer beep':
+
+```html
+    <div id="computerbeepscircle"></div>
+```
+
+Zo ziet de CSS-code er uit van de 'computer beep':
+
+```css
+/* Dit is de class sound12 die op 103.3 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 0.1 seconden en een teller van 8, omdat het effect 0.8 seconden lang moet duren. */
+.sound12 #computerbeepscircle {
+    animation-name: computerbeeps;
+    animation-duration: 0.1s;
+    animation-iteration-count: 8;
+}
+
+/* Deze ID plaatst het effect op de juiste plek, zorgt ervoor dat het een rode ellipse is. Z-index zorgt ervoor dat het effect achter het fragment komt te staan, zodat de filmervaring niet verloren gaat. */
+#computerbeepscircle {
+    width: 120em;
+    position: absolute;
+    height: 60.5em;
+    margin: 0;
+    background-color: red;
+    top: 0;
+    left: 0;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    z-index: -1;
+    opacity: 0;
+}
+
+/* Deze Keyframe zorgt er dat het effect wel en niet wordt laten zien op verschillende punten. */
+@-webkit-keyframes computerbeeps {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.35;
+    }
+
+    99% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+```
+
+## Eindresultaat
+Je kan de live preview van het eindresultaat vinden in de beschrijving van deze repository, of simpelweg [hier](https://robinansems.github.io/web-typography/).
+
+En als je geen zin hebt om te klooien met de Javascript Audio Visualizer, kan je het complete filmpje altijd op mijn youtube bekijken: [hier](LINKJE INVOEGEN NA SCREENCAST).
+
+## Afsluiting
+Bedankt voor lezen van mijn readme. Ik heb veel geleerd van het maken van deze opdracht. Ik heb een poging gedaan naar het maken van deze opdracht door 'out of the box' te denken. Misschien is mijn oplossing voor het probleem wel de correcte manier om deze opdracht te maken, die zou kunnen functioneren als voorbeeld van hoe het wel zou moeten, wie weet? 
+
+Maar desondanks denk ik dat dit lastig is om te zeggen, ieder doof persoon heeft zijn of haar eiegen behoeftes. Maar ik hoop zeker dat ik hiermee Marie en misschien ook wel alle andere doven, een stukje opweg heb geholpen naar een mooie toekomst vol ondertitelde films 😊!
 
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:

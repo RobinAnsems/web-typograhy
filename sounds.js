@@ -3,15 +3,17 @@
 //-------------------------------------------------
 
 sounds = [
-	0,     //class genaamd sound0
-	9,     //class genaamd sound1
-	12,    //class genaamd sound2
-	15,    //class genaamd sound3
-	16.5,  //class genaamd sound4
-	24,    //class genaamd sound5
-	25.5,  //class genaamd sound6
-	31,    //class genaamd sound7
-	32.5,  //class genaamd sound8
-	34,    //class genaamd sound9
-	86     //class genaamd sound10
+	1.5,   //class sound0 > trommelmuziek          (af)
+	9,     //class sound1 > rode alarmbuzzer       (af)
+	12,    //class sound2 > High frequency Siren   (nog doen)
+	15.2,  //class sound3 > Low frequency Buzzer   (nog doen)
+	16.7,  //class sound4 > High frequency Buzzer  (nog doen)
+    20,    //class sound5 > people talking         (nog doen)
+	24.2,  //class sound6 > Low frequency Buzzer   (nog doen)
+	25.7,  //class sound7 > High frequency Buzzer  (nog doen)
+	31.2,  //class sound8 > Low frequency Buzzer   (nog doen)
+	32.3,  //class sound9 > High frequency Buzzer  (nog doen)
+	33,    //class sound10 > High frequency tone   (af)
+	86,    //class sound11 > Taunting music        (af)
+    103.3  //class sound12 > Computer beeps        (af)
 ];

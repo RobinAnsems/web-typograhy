@@ -20,7 +20,7 @@ captions[4] = ['17.369','20'];
 //(🧑🏽 Officer K) interlinked within cells, interlinked within one stem.
 captions[5] = ['20.1','23.3'];
 
-//(👨🏼‍🦲 Bald guy) Fuck off, skin-job!
+//(👨🏼‍🦲 Bald guy) [angry tone] Fuck off, skin-job!
 captions[6] = ['23.3','25.2'];
 
 //(🧑🏽 Officer K) And dreadfully distinct against the dark, a tall white fountain played...
@@ -134,7 +134,7 @@ captions[42] = ['70.8','72.2'];
 //(🧑🏽 Officer K) Within cells interlinked.
 captions[43] = ['72.5','74.2'];
 
-//(🤖 Robot) We're done.
+//(🤖 Robot) [approving tone] We're done.
 captions[44] = ['77.1','78.7'];
 
 //(🤖 Robot) [sighs softly] Constant K.
@@ -144,7 +144,7 @@ captions[45] = ['80','81.738'];
 captions[46] = ['82.2','84.3'];
 
 //(🧑🏽 Officer K) Thank you, sir
-captions[47] = ['85.4','87'];
+captions[47] = ['85.4','86'];
 
 //---------------------------------------------------------------------------
 //-----de ondertiteling van deel 2 van het fragment, getimed in seconden------
@@ -168,13 +168,13 @@ captions[52] = ['91.98','95.52'];
 //(🧑🏽 Officer K) Cells.
 captions[53] = ['95.52','96.02'];
 
-//(🤖 Robot) Interlinked. (nog timen)
+//(🤖 Robot) Interlinked. 
 captions[54] = ['96.10','96.7'];
 
-//(🧑🏽 Officer K) Interlinked. (nog timen)
+//(🧑🏽 Officer K) Interlinked.
 captions[55] = ['96.7','97.50'];
 
-//(🤖 Robot) What’s it like to hold the hand of someone you love? (nog timen)
+//(🤖 Robot) [spooky tone] What’s it like to hold the hand of someone you love?
 captions[56] = ['97.5','100.2'];
 
 //(🤖 Robot) Interlinked...
@@ -249,7 +249,7 @@ captions[79] = ['125.52','127.28'];
 //(🧑🏽 Officer K) A tall white fountain played.
 captions[80] = ['128.18','130.14'];
 
-//(🤖 Robot) You're not even close to baseline.
+//(🤖 Robot) [disapproving tone] You're not even close to baseline.
 captions[81] = ['132.58','135'];
 
 //------------------------------------------------------------------------------------
@@ -257,12 +257,12 @@ captions[81] = ['132.58','135'];
 //------------------------------------------------------------------------------------
 
 //[🎶🥁 Heavy drum sounds]
-captions[82] = ['0.0','33.0'];
+captions[82] = ['0.0','20'];
 
 //[🚨 Alarmbuzzer]
 captions[83] = ['9.0','10.0'];
 
-//[📯 High frequency Horn]
+//[📯 High frequency Siren]
 captions[84] = ['12.0','13.0'];
 
 //[🎵🚨 Low frequency Buzzer]
@@ -271,24 +271,32 @@ captions[85] = ['15.2','16.7'];
 //[🎵🚨 High frequency Buzzer]
 captions[86] = ['16.7','17.2'];
 
-//[🎵🚨 Low frequency Buzzer]
-captions[87] = ['24.2','25.7'];
-
-//[🎵🚨 High frequency Buzzer]
-captions[88] = ['25.7','26.2'];
+//[🔊 People Talking on background]
+captions[87] = ['20','32.7'];
 
 //[🎵🚨 Low frequency Buzzer]
-captions[89] = ['31.2','32.3'];
+captions[88] = ['24.2','25.7'];
 
 //[🎵🚨 High frequency Buzzer]
-captions[90] = ['32.3','33.0'];
+captions[89] = ['25.7','26.2'];
+
+//[🎵🚨 Low frequency Buzzer]
+captions[90] = ['31.2','32.3'];
+
+//[🎵🚨 High frequency Buzzer]
+captions[91] = ['32.3','33.0'];
 
 //[🎵🔊 High frequency tone keeps increasing]
-captions[91] = ['33.2','75'];
+captions[92] = ['33.2','75'];
+
+//[🔇 Silence]
+captions[93] = ['75','86'];
 
 //[🎶 Taunting music]
-captions[92] = ['86.0','136'];
+captions[94] = ['86.0','129.5'];
 
+//[🎵🔊 Computer beeps]
+captions[95] = ['103.1','104.1'];
 
-
-
+//[🔇 Silence]
+captions[96] = ['129.5','136'];
