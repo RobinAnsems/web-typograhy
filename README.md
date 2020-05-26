@@ -289,7 +289,7 @@ Ik heb \[🔇 Silence\] toegevoegd omdat ik het belangrijk vind dat Marie weet w
 ##### Heavy drum sounds
 \[🎶🥁 Heavy drum sounds\] heb ik visueel laten zien door op de timing van de drums een div met witte box-shadow, wel en niet laten zien doormiddel van 'opacity:0' en 'opacity:1':
 
-![drum](https://github.com/RobinAnsems/web-typography/blob/master/images/drum.png)
+![drum](https://github.com/RobinAnsems/web-typography/blob/master/images/drum.gif)
 
 Ik heb de tekst 'drum' op het effect gezet om aan Marie te laten weten wat precies die witte effecten onderaan haar beeld zijn. Het is simpelweg een kleine indicatie, kort maar krachtig.
 
@@ -385,7 +385,7 @@ Zo ziet de CSS-code er uit van het drum-effect:
 ##### Alarmbuzzer
 \[🚨 Alarmbuzzer\] heb ik visueel laten zien door 2 rode balken aan de rechter- en linkerkant van het fragment op te laten lichten:
 
-![alarmbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/alarmbuzzer.png)
+![alarmbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/alarmbuzzer.gif)
 
 Ik heb voor rood gekozen omdat ik dit associeer met een alarm.
 
@@ -716,6 +716,8 @@ De bronnen die ik heb gebruikt zijn:
 * [Het fragment](https://www.youtube.com/watch?v=vrP-_T-h9YM)
 * [Youtube mp3-downloader FLVTO](https://www.flvto.biz/nl69/)
 * [Javascript Audio Visualizer](https://codepen.io/nfj525/pen/rVBaab)
+* [Youtube Bladerunner muziek](https://youtu.be/nf0llz_Rfd0?t=461)
+* [Maken van 'taunting music' visualisatie op Renderforest.com](https://www.renderforest.com/music-visualisations)
 
 ## Socials
 Dit is waar je mij kan vinden:
