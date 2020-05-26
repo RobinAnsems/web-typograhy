@@ -197,7 +197,7 @@ Na het tweede feedbackgesprek met Marie ben ik achter enkele dingen gekomen:
 * Er kunnen meer Closed Captions worden toegevoegd aan de ondertiteling van de robot en Officer K, dit komt omdat Marie de intonatie van de stemmen niet kan horen. Betekenis intonatie: "_Intonatie is een prosodische eenheid in de fonetiek. Bedoeld wordt de toonhoogte die tijdens de spraak door "stembuiging" wordt verkregen. In tegenstelling tot tonen wordt intonatie niet gebruikt om woorden van elkaar te onderscheiden, wel kan het de betekenis van een zin benadrukken of verduidelijken._" [bron](https://nl.wikipedia.org/wiki/Intonatie_(spraak)).
 * Ik heb gevraagd wat volgens Marie de beste/fijnste manier is om geluid visueel vorm te geven. Dit wist Marie niet precies, en dat is ook heel moeilijk, en dat begrijp ik. Dus ik heb Marie een voorbeeld laten zien van een Javascript Audio Visualizer: 
 
-![JS-audio-visualizer](https://github.com/RobinAnsems/web-typography/blob/master/images/JS-audio-visualizer.png)
+![JS-audio-visualizer](https://github.com/RobinAnsems/web-typography/blob/master/images/JS-audio-visualizer.gif)
 [bron](https://codepen.io/nfj525/pen/rVBaab)
 
 Marie vond dit erg interessant en vertelde dat visualisatie van geluid dmv van de toonhoogte + de toevoeging van bijbehorende Closed Captions, misschien wel van grote toegevoegde waarde zijn.
@@ -250,7 +250,7 @@ Om de Audio Visualizer te gebruiken, moet je een aantal stappen doorlopen:
 
 En zo ziet het er uit als je het fragment aan het bekijken bent met Javascript Audio Visualisatie (de high frequency buzzer-piek is mooi te zien. Te vinden precies onder de 'q' van 'frequency'.):
 
-![audiovisualizervoorbeeld](https://github.com/RobinAnsems/web-typography/blob/master/images/audiovisualizervoorbeeld.png)
+![audiovisualizervoorbeeld](https://github.com/RobinAnsems/web-typography/blob/master/images/audiovisualizervoorbeeld.gif)
 
 #### Manier van spreken (intonatie)
 Ik heb na feedback van Marie meer closed captions aan de ondertiteling toegepast waarin ik laat zien op welke manier de stemmen worden uitgesproken. Dit zijn alle closed captions in de ondertiteling die ik heb toegevoegd:
@@ -287,7 +287,7 @@ Ik heb \[🔇 Silence\] toegevoegd omdat ik het belangrijk vind dat Marie weet w
 #### Effecten
 
 ##### Heavy drum sounds
-\[🎶🥁 Heavy drum sounds\] heb ik visueel laten zien door op de timing van de drums een div met witte boxshadow, wel en niet laten zien doormiddel van 'opacity:0' en 'opacity:1':
+\[🎶🥁 Heavy drum sounds\] heb ik visueel laten zien door op de timing van de drums een div met witte box-shadow, wel en niet laten zien doormiddel van 'opacity:0' en 'opacity:1':
 
 ![drum](https://github.com/RobinAnsems/web-typography/blob/master/images/drum.png)
 
@@ -306,7 +306,9 @@ Zo ziet de HTML-code er uit van het drum-effect:
 Zo ziet de CSS-code er uit van het drum-effect:
 
 ```css
-/* Dit is de class sound0 die op 1.5 seconden wordt aangemaakt op de body, ik geef de class een animatie-naam, een animatie-tijd en geef aan hoe vaak de animatie moet plaatsvinden, in dit geval hoor je 10 keer een drum, dus vandaar de 10. */
+/* Dit is de class sound0 die op 1.5 seconden wordt aangemaakt op de body, */
+/* ik geef de class een animatie-naam, een animatie-tijd en geef aan hoe vaak */ 
+/* de animatie moet plaatsvinden, in dit geval hoor je 10 keer een drum, dus vandaar de 10. */
 .sound0 #trommeldiv {
     animation-name: trommel;
     animation-duration: 1.85s;
@@ -397,7 +399,8 @@ Zo ziet de HTML-code er uit van de alarmbuzzer:
 Zo ziet de CSS-code er uit van de alarmbuzzer:
 
 ```css
-/* Dit is de class sound1 die op 9 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 1 seconden en een rode box-shadow. */
+/* Dit is de class sound1 die op 9 seconden wordt aangemaakt op de body, ik geef de class een animatie */
+/* mee van 1 seconden en een rode box-shadow. */
 .sound1 #alarmbuzzerlinks {
     animation: alarmbuzzer 1s linear;
     background-color: red;
@@ -429,7 +432,8 @@ Zo ziet de CSS-code er uit van de alarmbuzzer:
     top: 7em;
 }
 
-/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten, en hoe groot het effect moet zijn. */
+/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten, */
+/* en hoe groot het effect moet zijn. */
 @-webkit-keyframes alarmbuzzer {
     0% {
         opacity: 0;
@@ -527,14 +531,17 @@ Ik heb gekozen voor een flikkerend beeld omdat ik dit wel vond passen bij een ho
 Zo ziet de CSS-code er uit van de 'hightone':
 
 ```css
-/* Dit is de class sound10 die op 33 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 0.1 seconden en een teller van 418, omdat het effect 41,8 seconden lang moet duren. */
+/* Dit is de class sound10 die op 33 seconden wordt aangemaakt op de body, ik geef de */
+/* class een animatie mee van 0.1 seconden en een teller van 418, omdat het effect 41,8 */
+/* seconden lang moet duren. */
 .sound10 {
     animation: highfrequencytone 0.1s cubic-bezier(.36, .07, .19, .97) both infinite;
     animation-iteration-count: 418;
     backface-visibility: hidden;
 }
 
-/* Deze Keyframe zorgt er voor dat de kleur wordt veranderd, zodat het als een flikkerend beeld uit komt te zien. */
+/* Deze Keyframe zorgt er voor dat de kleur wordt veranderd, zodat het als een flikkerend */
+/* beeld uit komt te zien. */
 @-webkit-keyframes highfrequencytone {
 
     0% {
@@ -564,7 +571,8 @@ Zo ziet de HTML-code er uit van de 'tauntingmusic':
 Zo ziet de CSS-code er uit van de 'tauntingmusic':
 
 ```css
-/* Dit is de class sound11 die op 86 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 50 seconden en een teller van 1, omdat het effect 50 seconden lang moet duren. */
+/* Dit is de class sound11 die op 86 seconden wordt aangemaakt op de body, ik geef de class */
+/* een animatie mee van 50 seconden en een teller van 1, omdat het effect 50 seconden lang moet duren. */
 .sound11 #tauntingmusiclinks {
     animation-name: tauntingmusic;
     animation-duration: 50s;
