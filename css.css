@@ -372,19 +372,79 @@ audio {
 
 .sound2 {}
 
-.sound3 {}
+.sound3 #lowbuzzerlinks1 {
+    animation: lowbuzzer 1.25s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
 
-.sound4 {}
+.sound3 #lowbuzzerrechts1 {
+    animation: lowbuzzer 1.25s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound4 #highbuzzerlinks2 {
+    animation: highbuzzer 0.5s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound4 #highbuzzerrechts2 {
+    animation: highbuzzer 0.5s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
 
 .sound5 {}
 
-.sound6 {}
+.sound6 #lowbuzzerlinks3 {
+    animation: lowbuzzer 1.25s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
 
-.sound7 {}
+.sound6 #lowbuzzerrechts3 {
+    animation: lowbuzzer 1.25s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
 
-.sound8 {}
+.sound7 #highbuzzerlinks4 {
+    animation: highbuzzer 0.5s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
 
-.sound9 {}
+.sound7 #highbuzzerrechts4 {
+    animation: highbuzzer 0.5s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound8 #lowbuzzerlinks5 {
+    animation: lowbuzzer 1.1s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound8 #lowbuzzerrechts5 {
+    animation: lowbuzzer 1.1s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound9 #highbuzzerlinks6 {
+    animation: highbuzzer 0.7s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound9 #highbuzzerrechts6 {
+    animation: highbuzzer 0.7s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
 
 .sound10 {
     animation: highfrequencytone 0.1s cubic-bezier(.36, .07, .19, .97) both infinite;
@@ -490,6 +550,114 @@ audio {
     top: 7em;
 }
 
+#lowbuzzerlinks1 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#lowbuzzerrechts1 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#highbuzzerlinks2 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#highbuzzerrechts2 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#lowbuzzerlinks3 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#lowbuzzerrechts3 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#highbuzzerlinks4 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#highbuzzerrechts4 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#lowbuzzerlinks5 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#lowbuzzerrechts5 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#highbuzzerlinks6 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#highbuzzerrechts6 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
 #tauntingmusic {
     width: 120em;
     height: 60.5em;
@@ -532,6 +700,7 @@ audio {
         opacity: 1;
 
     }
+
     51% {
         opacity: 0;
     }
@@ -568,6 +737,95 @@ audio {
     100% {
         opacity: 0;
         width: 0.1em;
+    }
+}
+
+@-webkit-keyframes lowbuzzer {
+    0% {
+        top: 7em;
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        top: 7em;
+        opacity: 0.75;
+        width: 0;
+    }
+
+    10% {
+        top: 7.5em;
+    }
+
+    20% {
+        top: 7em;
+    }
+
+    30% {
+        top: 7.5em;
+    }
+
+    40% {
+        top: 7em;
+    }
+
+    50% {
+        top: 7.5em;
+        width: 3em;
+    }
+
+    60% {
+        top: 7em;
+    }
+
+    70% {
+        top: 7.5em;
+    }
+
+    80% {
+        top: 7em;
+    }
+
+    90% {
+        top: 7.5em;
+    }
+
+    99% {
+        top: 7em;
+        opacity: 0.75;
+        width: 0;
+    }
+
+    100% {
+        top: 7em;
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@-webkit-keyframes highbuzzer {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        opacity: 0.75;
+        width: 0;
+    }
+
+    50% {
+        width: 7em;
+    }
+
+    99% {
+        opacity: 0.75;
+        width: 0;
+    }
+
+    100% {
+        opacity: 0;
+        width: 0;
     }
 }
 

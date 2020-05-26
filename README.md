@@ -16,6 +16,8 @@ Hallo, welkom bij mijn Github-Repository van Web-Typography. Ik volg een opleidi
 *   [Feedback2](#feedback2)
 *   [Visie3](#visie3)
 *   [Versie3](#versie3)
+*   [Eindresultaat](#eindresultaat)  
+*   [Principles](#principles)   
 *   [Afsluiting](#afsluiting)
 *   [Bronnen](#bronnen)
 *   [Socials](#socials)
@@ -432,7 +434,7 @@ Zo ziet de CSS-code er uit van de alarmbuzzer:
     top: 7em;
 }
 
-/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten, */
+/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten zien, */
 /* en hoe groot het effect moet zijn. */
 @-webkit-keyframes alarmbuzzer {
     0% {
@@ -464,7 +466,7 @@ Zo ziet de CSS-code er uit van de alarmbuzzer:
 ##### High frequency Siren
 \[📯 High frequency Siren\] heb ik visueel laten zien door :
 
-![sirene](https://github.com/RobinAnsems/web-typography/blob/master/images/sirene.png)
+![sirene](https://github.com/RobinAnsems/web-typography/blob/master/images/sirene.gif)
 
 blabla
 
@@ -481,43 +483,182 @@ Zo ziet de CSS-code er uit van de sirene:
 
 ```
 
-##### Low frequency Buzzer
-\[🎵🚨 Low frequency Buzzer\] heb ik visueel laten zien door :
+##### Low & HIGH frequency Buzzer
+\[🎵🚨 Low frequency Buzzer\] en \[🎵🚨 High frequency Buzzer\] heb ik visueel laten zien door 2 groene balken aan de rechter- en linkerkant van het fragment op te laten lichten. De low buzzer-balk is korter dan die van de high-buzzer-balk om aan te geven dat de ene een lage toon is en de andere een hoge toon:
 
-![lowbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/lowbuzzer.png)
+![lowbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/lowhighbuzzer.gif)
 
-blabla
+Ik heb er voor gekozen om de balken groen te maken omdat de lage en hoge buzzer-tonen mij deden denken een iets van een scanner. Ik heb er ook voor gekozen om de 'low buzzer' te laten bewegen omdat deze toon vrij kartelig is.
 
-Zo ziet de HTML-code er uit van de 'low frequency Buzzer':
-
-```html
-
-```
-
-Zo ziet de CSS-code er uit van de 'low frequency Buzzer':
-
-```css
-/**/
-
-```
-
-##### High frequency Buzzer
-\[🎵🚨 High frequency Buzzer\] heb ik visueel laten zien door :
-
-![highbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/highbuzzer.png)
-
-blabla
-
-Zo ziet de HTML-code er uit van de 'high frequency Buzzer':
+Zo ziet de HTML-code er uit van de 'low & high frequency Buzzer':
 
 ```html
-
+    <div id="lowbuzzerlinks1"></div>
+    <div id="lowbuzzerrechts1"></div>
+    <div id="highbuzzerlinks2"></div>
+    <div id="highbuzzerrechts2"></div>
 ```
 
-Zo ziet de CSS-code er uit van de 'high frequency Buzzer':
+Zo ziet de CSS-code er uit van de 'low & high frequency Buzzer':
 
 ```css
-/**/
+/* Dit is de class sound3 en sound4 die op 15.2 seconden en op 16.5 seconden */
+/* wordt aangemaakt op de body, ik geef de class een animatie mee van*/
+/* 1,25 seconden en van 0.5 seconden een geef ze beiden een groene box-shadow. */
+/* De lengte van animatie verschilt omdat de low-buzzer die 1.25 seconden duurt, */ 
+/* langer klinkt dan de high-buzzer die 0.5 seconden duurt. */
+.sound3 #lowbuzzerlinks1 {
+    animation: lowbuzzer 1.25s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound3 #lowbuzzerrechts1 {
+    animation: lowbuzzer 1.25s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound4 #highbuzzerlinks2 {
+    animation: highbuzzer 0.5s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+.sound4 #highbuzzerrechts2 {
+    animation: highbuzzer 0.5s linear;
+    background-color: lawngreen;
+    box-shadow: 0.5em 0 3em 3em lawngreen;
+}
+
+/* Deze 4 ID's plaatsen de buzzers op de juiste plek. */
+#lowbuzzerlinks1 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#lowbuzzerrechts1 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+#highbuzzerlinks2 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    left: 0em;
+    top: 7em;
+}
+
+#highbuzzerrechts2 {
+    width: 0.5em;
+    height: 48em;
+    position: absolute;
+    opacity: 0;
+    right: 0em;
+    top: 7em;
+}
+
+/* Deze Keyframes laten weten wanneer de effecten wel en niet moeten worden laten zien, */
+/* en hoe groot het effect moet zijn. De lowbuzzer-keyframe laat ook nog weten hoe het */
+/* lowbuzzer-effect moet schudden op en neer */
+@-webkit-keyframes lowbuzzer {
+    0% {
+        top: 7em;
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        top: 7em;
+        opacity: 0.75;
+        width: 0;
+    }
+
+    10% {
+        top: 7.5em;
+    }
+
+    20% {
+        top: 7em;
+    }
+
+    30% {
+        top: 7.5em;
+    }
+
+    40% {
+        top: 7em;
+    }
+
+    50% {
+        top: 7.5em;
+        width: 3em;
+    }
+
+    60% {
+        top: 7em;
+    }
+
+    70% {
+        top: 7.5em;
+    }
+
+    80% {
+        top: 7em;
+    }
+
+    90% {
+        top: 7.5em;
+    }
+
+    99% {
+        top: 7em;
+        opacity: 0.75;
+        width: 0;
+    }
+
+    100% {
+        top: 7em;
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@-webkit-keyframes highbuzzer {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        opacity: 0.75;
+        width: 0;
+    }
+
+    50% {
+        width: 7em;
+    }
+
+    99% {
+        opacity: 0.75;
+        width: 0;
+    }
+
+    100% {
+        opacity: 0;
+        width: 0;
+    }
+}
 
 ```
 
@@ -656,14 +797,18 @@ Zo ziet de HTML-code er uit van de 'computer beep':
 Zo ziet de CSS-code er uit van de 'computer beep':
 
 ```css
-/* Dit is de class sound12 die op 103.3 seconden wordt aangemaakt op de body, ik geef de class een animatie mee van 0.1 seconden en een teller van 8, omdat het effect 0.8 seconden lang moet duren. */
+/* Dit is de class sound12 die op 103.3 seconden wordt aangemaakt op de body, */
+/* ik geef de class een animatie mee van 0.1 seconden en een teller van 8, */
+/* omdat het effect 0.8 seconden lang moet duren. */
 .sound12 #computerbeepscircle {
     animation-name: computerbeeps;
     animation-duration: 0.1s;
     animation-iteration-count: 8;
 }
 
-/* Deze ID plaatst het effect op de juiste plek, zorgt ervoor dat het een rode ellipse is. Z-index zorgt ervoor dat het effect achter het fragment komt te staan, zodat de filmervaring niet verloren gaat. */
+/* Deze ID plaatst het effect op de juiste plek, zorgt ervoor dat het een rode */
+/* ellipse is. Z-index zorgt ervoor dat het effect achter het fragment komt te staan, */
+/* zodat de filmervaring niet verloren gaat. */
 #computerbeepscircle {
     width: 120em;
     position: absolute;
@@ -705,6 +850,9 @@ Zo ziet de CSS-code er uit van de 'computer beep':
 Je kan de live preview van het eindresultaat vinden in de beschrijving van deze repository, of simpelweg [hier](https://robinansems.github.io/web-typography/).
 
 En als je geen zin hebt om te klooien met de Javascript Audio Visualizer, kan je het complete filmpje altijd op mijn youtube bekijken: [hier](LINKJE INVOEGEN NA SCREENCAST).
+
+## Principles
+blabla
 
 ## Afsluiting
 Bedankt voor lezen van mijn readme. Ik heb veel geleerd van het maken van deze opdracht. Ik heb een poging gedaan naar het maken van deze opdracht door 'out of the box' te denken. Misschien is mijn oplossing voor het probleem wel de correcte manier om deze opdracht te maken, die zou kunnen functioneren als voorbeeld van hoe het wel zou moeten, wie weet? 
