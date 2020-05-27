@@ -454,6 +454,7 @@ audio {
     backface-visibility: hidden;
 }
 
+/*
 .sound11 #tauntingmusiclinks {
     animation-name: tauntingmusic;
     animation-duration: 50s;
@@ -489,6 +490,7 @@ audio {
     left: 152.5em;
     opacity: 0;
 }
+*/
 
 .sound12 #computerbeepscircle {
     animation-name: computerbeeps;

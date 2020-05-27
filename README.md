@@ -116,7 +116,8 @@ Denk bijvoorbeeld aan het geluid van een bel (wat zich afspeelt op de achtergron
 
 Wat wel zou kunnen werken is om deze twee te combineren. De combinatie van visuele effecten en de uitgeschreven Closed Caption met een emoji er bij zou een goede oplossing kunnen zijn voor het ontwerpprobleem.
 
-Ook denk ik dat het bij het interview heel belangrijk is dat er duidelijk is wie praat, puur omdat het interview in het fragment zo snel heen en weer gaat. En om dan weer terug te komen bij de iconen/emojis zou dit toe kunnen worden gepast als bijvoorbeeld het volgende:
+##### Emoji bij stemgeluiden
+Ook denk ik dat het bi het interview heel belangrijk is dat er duidelijk is wie praat, puur omdat het interview in het fragment zo snel heen en weer gaat. En om dan weer terug te komen bij de iconen/emojis zou dit toe kunnen worden gepast als bijvoorbeeld het volgende:
 
 * (🤖 Robot) Do they keep you in a cell?
 * (👨 Officer K) Cells.
@@ -134,6 +135,7 @@ Voice 3 heb ik "(👨🏼‍🦲 Bald guy)" genoemd, ik heb hem de kleur rood ge
 
 Voice 4 is volgens Vasilis een ander persoon, maar volgens mij is dit nogsteeds voice1, oftewel de robot, het klopt dat de toonhoogte van de stem anders is, maar het is en blijft dezelfde stem. Dus ik heb voice 4 dezelfde styling gegeven als die van Voice 1, maar ik heb wel enkele Closed Captions erbij gezet om aan te geven dat de stem van de robot anders is dan normaal. Dit heb ik gedaan om aan Marie duidelijk te maken dat de manier van spreken anders is dan hoe de robot normaal klinkt tijdens het interview.
 
+##### Emoji bij geluidseffecten
 Als het gaat om de Closed Captions van de geluiden in het fragment, heb ik de volgende captions laten zien onder het fragment:
 * \[🎶🥁 Heavy drum sounds\]
 * \[🚨 Alarmbuzzer\]
@@ -176,7 +178,7 @@ Aanpassingen die ik zelf nog heb verzonnen na beiden feedback gesprekken:
 * Er moet visueel worden weergegeven hoe de spanning van het geluid klinkt.
 
 ## Visie2
-Ik heb nog vrij weinig kunnen doen aan de visuele effecten op of om het fragment heen, dit komt omdat ik heel veel heb nagedacht over hoe ik visueel wil laten zien hoe het geluid zou kunnen klinken. Het is een lastige maar uitdagende opdracht, puur omdat er geen voorbeelden zijn en niemand weet wat de correcte manier is om deze opdracht te maken. Ik heb daarom veel onderzoek gedaan naar de theorie achter het visualiseren van geluid. Ik heb een Javascript Sound Visualizer gevonden die aan de hand van het geluid van een mp3'tje op een canvas de verschillende toonhoogtes laat zien. Het wordt een grote uitdaging om dit te coderen in mijn project. Maar alleen deze Visualizer is volgens Vasilis niet genoeg om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken. Ik heb er daarom voor gekozen om te doen wat de meeste klasgenoten ook doen: kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. 
+Ik heb nog vrij weinig kunnen doen aan de visuele effecten op of om het fragment heen, dit komt omdat ik heel veel heb nagedacht over hoe ik visueel wil laten zien hoe het geluid zou kunnen klinken. Het is een lastige maar uitdagende opdracht, puur omdat er geen voorbeelden zijn en niemand weet wat de correcte manier is om deze opdracht te maken. Ik heb daarom veel onderzoek gedaan naar de theorie achter het visualiseren van geluid. Ik heb een Javascript Audio Visualizer gevonden die aan de hand van het geluid van een mp3'tje op een canvas de verschillende toonhoogtes laat zien. Het wordt een grote uitdaging om dit te coderen in mijn project. Maar alleen deze Visualizer is volgens Vasilis niet genoeg om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken. Ik heb er daarom voor gekozen om te doen wat de meeste klasgenoten ook doen: kleuren, lichtflitsen, schaduwen en effecten rondom het fragment. 
 
 Mijn visie hierbij is wel belangrijk:
 * Ik wil er voor zorgen dat de filmervaring niet verloren gaat, de effecten mogen niet voor afleiding zorgen!
@@ -215,7 +217,7 @@ Ik denk bij deze opdracht vaak na over een oplossing voor in de toekomst. Een op
 * Hoe meer closed captions, hoe beter (maar niet te veel). Uitleg: Voor Marie is het nutteloos om kleuren, lichtflitsen en effecten te laten zien zonder dat er staat beschreven wat deze moeten voorstellen. Daarom zijn uitgebreide closed captions hardstikke belangrijk voor Marie. Zelfs als het stil is in het fragement is de volgende closed caption hardstikke belangrijk: \[silence\].
 * Leesbaarheid moet optimaal zijn. Uitleg: als er onderteling en closed captions aanwezig zijn is erg gewoonweg veel te lezen als je een fragment bekijkt waarin twee personen een vlot interview afleggen (zoals in ons fragment). Het is daarom voor Marie hardstikke belangrijk dat ze de ondertiteling en de closed captions goed en snel kan lezen zodat ze kan kijken naar wat er in de film gebeurd. Als Marie 90% van de tijd bezig is om de ondertiteling te lezen gaat een deel van de filmervaring verloren, en dat is jammer.
 * Ik wil er voor zorgen dat de filmervaring niet verloren gaat, de effecten mogen niet voor afleiding zorgen. Uitleg: Het beeldmateriaal moet blijven zoals het is, de film is en blijft de film. De Effecten die wel worden toegepast moeten **onopvallende effecten** zijn die de sfeer en het geluid aan Marie op een minimalistische manier duidelijk maken.
-* En als laatste ben ik er sterk van overtuigd dat de toevoeging van beeld niet (of niet genoeg) kan bijdragen aan de verduidelijking van het geluid voor Marie. Uitleg: denk bijvoorbeeld aan het voelen van de bass van een muziekje, deze verschillende toonhoogtes zorgen er voor dat de bass sneller of langzamer op en neer beweegt waardoor doven mensen zoals Marie een gevoel van geluid kunnen ervaren door simpelweg de bass van hun geluid-systeem aan te raken tijdens het beluisteren van (in dit geval het Blade Runner fragment) een muziekje. Maar helaas horen deze mogelijkheden niet bij de opdracht en moeten we dit probleem proberen op te lossen met CSS. Ik dacht daarom: Hoe kan ik aan Marie duidelijk maken wat de verschillende toonhoogtes zijn, zodat Marie ook kan zien hoe de geluiden zouden kunnen klinken, netzoals bij het aanraken van de bass van een speaker. Ik denk daarom dat een Javascript Sound Visualizer een hele goede manier is om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken of zodat Marie kan zien wanneer er bijvoorbeeld geen geluid afspeelt (dan zullen de toonhoogtes heel laag zijn). Marie heeft gezegd in het feedbackgesprek dat: "de visualisatie van geluid dmv van de toonhoogte + de toevoeging van bijbehorende Closed Captions, zouden misschien wel van grote toegevoegde waarde kunnen zijn". Volgens Vasilis moeten we deze opdracht oplossen doormiddel van CSS, wat ik snap natuurlijk, dat is de opdracht. Maar ik probeer 'out of the box' te denken om een mogelijke oplossing voor deze opdracht te vinden, omdat er geen voorbeelden zijn van hoe het wel moet.
+* En als laatste ben ik er sterk van overtuigd dat de toevoeging van beeld niet (of niet genoeg) kan bijdragen aan de verduidelijking van het geluid voor Marie. Uitleg: denk bijvoorbeeld aan het voelen van de bass van een muziekje, deze verschillende toonhoogtes zorgen er voor dat de bass sneller of langzamer op en neer beweegt waardoor doven mensen zoals Marie een gevoel van geluid kunnen ervaren door simpelweg de bass van hun geluid-systeem aan te raken tijdens het beluisteren van (in dit geval het Blade Runner fragment) een muziekje. Maar helaas horen deze mogelijkheden niet bij de opdracht en moeten we dit probleem proberen op te lossen met CSS. Ik dacht daarom: Hoe kan ik aan Marie duidelijk maken wat de verschillende toonhoogtes zijn, zodat Marie ook kan zien hoe de geluiden zouden kunnen klinken, netzoals bij het aanraken van de bass van een speaker. Ik denk daarom dat een Javascript Audio Visualizer een hele goede manier is om aan Marie duidelijk te maken hoe het geluid zou kunnen klinken of zodat Marie kan zien wanneer er bijvoorbeeld geen geluid afspeelt (dan zullen de toonhoogtes heel laag zijn). Marie heeft gezegd in het feedbackgesprek dat: "de visualisatie van geluid dmv van de toonhoogte + de toevoeging van bijbehorende Closed Captions, zouden misschien wel van grote toegevoegde waarde kunnen zijn". Volgens Vasilis moeten we deze opdracht oplossen doormiddel van CSS, wat ik snap natuurlijk, dat is de opdracht. Maar ik probeer 'out of the box' te denken om een mogelijke oplossing voor deze opdracht te vinden, omdat er geen voorbeelden zijn van hoe het wel moet.
 
 ## Versie3
 #### Ondertiteling
@@ -829,7 +831,7 @@ Zo ziet de CSS-code er uit van de 'tauntingmusic':
 
 ![computerbeep](https://github.com/RobinAnsems/web-typography/blob/master/images/computerbeep.gif)
 
-blabla
+Ik heb gekozen voor een rode ellipse omdat ik het geluidje van de computer associeer met een rood lampje.
 
 Zo ziet de HTML-code er uit van de 'computer beep':
 
@@ -889,28 +891,169 @@ Zo ziet de CSS-code er uit van de 'computer beep':
 }
 ```
 
+##### Javascript Audio Visualizer
+Ik heb de Audio Visualizer tussen de control-bar van het fragement en het fragment zelf, in gezet.
+
+![audiovisualizer2](https://github.com/RobinAnsems/web-typography/blob/master/images/audiovisualizer2.png)
+
+Zo ziet de HTML-code er uit van de Audio Visualizer:
+
+```html
+    <div id="soundvisualizer">
+        <a href="images/BladeRunnerAudio.mp3" download="BladeRunnerAudio.mp3" class="downloadknop">
+            <button type="submit">Download MP3</button>
+        </a>
+        <input type="file" id="thefile" accept="audio/*" />
+        <canvas id="canvas"></canvas>
+        <audio id="audio" controls></audio>
+    </div>
+```
+
+Zo ziet de CSS-code er uit van de Audio Visualizer:
+
+```CSS
+#soundvisualizer {
+    z-index: -1;
+}
+
+#thefile {
+    padding-top: 0.2em;
+    position: absolute;
+    top: 1em;
+    left: 10em;
+    z-index: 100;
+    margin: 0;
+}
+
+#canvas {
+    position: absolute;
+    left: 12em;
+    bottom: 5.1em;
+    width: 80vw;
+    height: 5.3em;
+    background-color: black;
+}
+
+audio {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    width: 20em;
+    height: 1.75em;
+}
+
+.downloadknop {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    z-index: 100;
+    margin: 0;
+}
+```
+
+Zo ziet de Javascript-code er uit van de Audio Visualizer:
+
+```javascript
+window.onload = function() {
+  
+  var file = document.getElementById("thefile");
+  var audio = document.getElementById("audio");
+  
+  file.onchange = function() {
+    var files = this.files;
+    audio.src = URL.createObjectURL(files[0]);
+    audio.load();
+    audio.play();
+    var context = new AudioContext();
+    var src = context.createMediaElementSource(audio);
+    var analyser = context.createAnalyser();
+
+    var canvas = document.getElementById("canvas");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight * 0.25;
+    var ctx = canvas.getContext("2d");
+
+    src.connect(analyser);
+    analyser.connect(context.destination);
+
+    analyser.fftSize = 256;
+
+    var bufferLength = analyser.frequencyBinCount;
+    console.log(bufferLength);
+
+    var dataArray = new Uint8Array(bufferLength);
+
+    var WIDTH = canvas.width;
+    var HEIGHT = canvas.height;
+
+    var barWidth = (WIDTH / bufferLength) * 2.5;
+    var barHeight;
+    var x = 0;
+
+    function renderFrame() {
+      requestAnimationFrame(renderFrame);
+
+      x = 0;
+
+      analyser.getByteFrequencyData(dataArray);
+        
+      ctx.fillStyle = "#000";
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+      for (var i = 0; i < bufferLength; i++) {
+        barHeight = dataArray[i];
+        
+        var r = barHeight + (25 * (i/bufferLength));
+        var g = 250 * (i/bufferLength);
+        var b = 50;
+
+        ctx.fillStyle = "#FFF";
+        ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
+
+        x += barWidth + 1;
+      }
+    }
+
+    audio.play();
+    renderFrame();
+  };
+};
+```
+
 ## Eindresultaat
 Je kan de live preview van het eindresultaat vinden in de beschrijving van deze repository, of simpelweg [hier](https://robinansems.github.io/web-typography/).
 
-En als je geen zin hebt om te klooien met de Javascript Audio Visualizer, kan je het complete filmpje altijd op mijn youtube bekijken: [hier](LINKJE INVOEGEN NA SCREENCAST).
+En als je geen zin hebt om te klooien met de Javascript Audio Visualizer, kan je het complete filmpje altijd op mijn youtube bekijken: [hier](https://youtu.be/BNquj1zIcgE).
 
 ## Principles
 ### Study situation
 Bij het kennismakkingsgesprek heb ik informatie over Marie verkregen. Ik weet wat ze wel en niet leuk vind. Na het kennismakingsgesprek heb ik enkel belangrijke aandachtspunten opgesteld.
 
-[Belangrijke aandachtspunten](#Belangrijke)
+[Belangrijke aandachtspunten](https://github.com/RobinAnsems/web-typography#belangrijke-aandachtspunten)
 
 * 1. De manier van spreken wordt vaak niet laten zien in ondertiteling.
 
 Deze heb ik toegepast door mijzelf heel erg te verdiepen in closed captions. Uiteindelijk heb ik zeer uitgebreide closed captions gemaakt en daarbij de manier van spreken (intonatie) duidelijk laten zien door deze tussen \[blokhaken\] te zetten.
 
+[Closed Captions](https://github.com/RobinAnsems/web-typography#closed-captions)
+[Intonatie](https://github.com/RobinAnsems/web-typography#manier-van-spreken-intonatie)
+
 * 2. De kant van het geluid kan heel erg belangrijk zijn. Iemand die buiten het beeld praat is belangrijk.
+
+Deze heb ik niet per se toegepast maar ik heb wel rekening gehouden met stemmen en geluiden die buiten beeld te horen zijn, deze heb ik een emoji gegeven om aan Marie kort en krachtig te laten zien hoe het voorwerp, dat het geluid maakt, er uit zou kunnen zien.
+
+[Stemgeluiden](https://github.com/RobinAnsems/web-typography#emoji-bij-stemgeluiden)
+[Geluidseffecten](https://github.com/RobinAnsems/web-typography#emoji-bij-geluidseffecten)
+
 * 3. Marie kan verschillende soorten geluid onderscheiden doormiddel van de vibratie van het geluid.
 
-Deze vond ik ook erg interessant, ik weet nog niet zo goed ik deze zou kunnen toe passen maar lijkt me een leuke uitdaging om dat te onderzoeken.
+Deze heb ik toegepast doormiddel van een Javascript Audio Visualizer die Marie een gevoel van toonhoogte kan geven.
+
+[Javascript Audio Visualizer](https://github.com/RobinAnsems/web-typography#audio-visualizer)
 
 ### Ignore conventions
-blabla
+De regels ik denk dat ik heb verbroken zijn:
+* 
 
 ### Prioritise identity
 blabla
