@@ -895,6 +895,27 @@ Je kan de live preview van het eindresultaat vinden in de beschrijving van deze 
 En als je geen zin hebt om te klooien met de Javascript Audio Visualizer, kan je het complete filmpje altijd op mijn youtube bekijken: [hier](LINKJE INVOEGEN NA SCREENCAST).
 
 ## Principles
+### Study situation
+Bij het kennismakkingsgesprek heb ik informatie over Marie verkregen. Ik weet wat ze wel en niet leuk vind. Na het kennismakingsgesprek heb ik enkel belangrijke aandachtspunten opgesteld.
+
+[Belangrijke aandachtspunten](#Belangrijke)
+
+* 1. De manier van spreken wordt vaak niet laten zien in ondertiteling.
+
+Deze heb ik toegepast door mijzelf heel erg te verdiepen in closed captions. Uiteindelijk heb ik zeer uitgebreide closed captions gemaakt en daarbij de manier van spreken (intonatie) duidelijk laten zien door deze tussen \[blokhaken\] te zetten.
+
+* 2. De kant van het geluid kan heel erg belangrijk zijn. Iemand die buiten het beeld praat is belangrijk.
+* 3. Marie kan verschillende soorten geluid onderscheiden doormiddel van de vibratie van het geluid.
+
+Deze vond ik ook erg interessant, ik weet nog niet zo goed ik deze zou kunnen toe passen maar lijkt me een leuke uitdaging om dat te onderzoeken.
+
+### Ignore conventions
+blabla
+
+### Prioritise identity
+blabla
+
+### Add nonsense
 blabla
 
 ## Afsluiting
