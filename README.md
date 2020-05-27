@@ -1052,14 +1052,26 @@ Deze heb ik toegepast doormiddel van een Javascript Audio Visualizer die Marie e
 [Javascript Audio Visualizer](https://github.com/RobinAnsems/web-typography#audio-visualizer)
 
 ### Ignore conventions
-De regels ik denk dat ik heb verbroken zijn:
-* 
+De regels die ik heb verbroken, zijn:
+
+* Closed captions en ondertiteling gescheiden gehouden. Dit heb ik gedaan puur omdat het interview in het fragment zo snel heen en weer gaat. 
+
+[Ondertiteling](https://github.com/RobinAnsems/web-typography#ondertiteling)
+
+Er zullen vast nog wel meer regels zijn die ik onbewust heb verbroken.
 
 ### Prioritise identity
-blabla
+Ik heb de feedback van Marie telkens goed bestuurd en toegepast, dit is allemaal te lezen in Feedback1 en feedback2.
+
+[Feedback1](https://github.com/RobinAnsems/web-typography#feedback1)
+[Feedback2](https://github.com/RobinAnsems/web-typography#feedback2)
 
 ### Add nonsense
-blabla
+Ik heb geprobeerd 'out of the box' te denken door de toonhoogtes te visualiseren. Dit heb ik gedaan met de Javascript Audio Visualizer.
+
+[Javascript Audio Visualizer](https://github.com/RobinAnsems/web-typography#audio-visualizer)
+
+Nog meer nonsense zou elk effect kunnen zijn, dat ik heb toegevoegd.
 
 ## Afsluiting
 Bedankt voor lezen van mijn readme. Ik heb veel geleerd van het maken van deze opdracht. Ik heb een poging gedaan naar het maken van deze opdracht door 'out of the box' te denken. Misschien is mijn oplossing voor het probleem wel de correcte manier om deze opdracht te maken, die zou kunnen functioneren als voorbeeld van hoe het wel zou moeten, wie weet? 
@@ -1073,6 +1085,7 @@ De bronnen die ik heb gebruikt zijn:
 * [Javascript Audio Visualizer](https://codepen.io/nfj525/pen/rVBaab)
 * [Youtube Bladerunner muziek](https://youtu.be/nf0llz_Rfd0?t=461)
 * [Maken van 'taunting music' visualisatie op Renderforest.com](https://www.renderforest.com/music-visualisations)
+
 
 ## Socials
 Dit is waar je mij kan vinden:
