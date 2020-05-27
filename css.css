@@ -370,7 +370,9 @@ audio {
     box-shadow: 0.5em 0 3em 3em red;
 }
 
-.sound2 {}
+.sound2 #siren {
+    animation: siren 1s linear;
+}
 
 .sound3 #lowbuzzerlinks1 {
     animation: lowbuzzer 1.25s linear;
@@ -503,7 +505,6 @@ audio {
     height: 2.5em;
     position: absolute;
     background-color: transparent;
-    opacity: 1;
     left: 7em;
     bottom: 0;
     z-index: -1;
@@ -530,6 +531,18 @@ audio {
     font-family: "Brenner Sans Bold";
     font-size: 30px;
     padding: 0;
+}
+
+#siren {
+    width: 106em;
+    height: 0.5em;
+    position: absolute;
+    background-color: yellow;
+    opacity: 0;
+    left: 7em;
+    bottom: 0;
+    z-index: -1;
+    box-shadow: 0.5em 0 3em 3em yellow;
 }
 
 #alarmbuzzerlinks {
@@ -688,20 +701,17 @@ audio {
 @-webkit-keyframes trommel {
     0% {
         opacity: 0;
-
     }
 
     1% {
         opacity: 1;
-
     }
 
-    50% {
+    30% {
         opacity: 1;
-
     }
 
-    51% {
+    31% {
         opacity: 0;
     }
 
@@ -711,6 +721,34 @@ audio {
 
     100% {
         opacity: 0;
+    }
+}
+
+@-webkit-keyframes siren {
+    0% {
+        opacity: 0;
+        height: 0.5em;
+    }
+
+    1% {
+        opacity: 1;
+        height: 0.5em;
+
+    }
+
+    50% {
+        opacity: 1;
+        height: 40em;
+    }
+
+    99% {
+        opacity: 1;
+        height: 0.5em;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0.5em;
     }
 }
 

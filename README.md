@@ -323,7 +323,6 @@ Zo ziet de CSS-code er uit van het drum-effect:
     height: 2.5em;
     position: absolute;
     background-color: transparent;
-    opacity: 1;
     left: 7em;
     bottom: 0;
     z-index: -1;
@@ -358,19 +357,17 @@ Zo ziet de CSS-code er uit van het drum-effect:
 @-webkit-keyframes trommel {
     0% {
         opacity: 0;
-
     }
 
     1% {
         opacity: 1;
-
     }
 
-    50% {
+    30% {
         opacity: 1;
-
     }
-    51% {
+
+    31% {
         opacity: 0;
     }
 
@@ -464,29 +461,75 @@ Zo ziet de CSS-code er uit van de alarmbuzzer:
 ```
 
 ##### High frequency Siren
-\[📯 High frequency Siren\] heb ik visueel laten zien door :
+\[📯 High frequency Siren\] heb ik visueel laten zien door een gele balk aan de onderkant van het fragment omhoog te laten komen:
 
-![sirene](https://github.com/RobinAnsems/web-typography/blob/master/images/sirene.gif)
+![siren](https://github.com/RobinAnsems/web-typography/blob/master/images/siren.gif)
 
-blabla
+Ik heb voor geel gekozen omdat ik dit wel vond passen bij een sirene.
 
-Zo ziet de HTML-code er uit van de sirene:
+Zo ziet de HTML-code er uit van de 'high frequency Siren':
 
 ```html
-
+    <div id="siren"></div>
 ```
 
-Zo ziet de CSS-code er uit van de sirene:
+Zo ziet de CSS-code er uit van de 'high frequency Siren':
 
 ```css
-/**/
+/* Dit is de class sound2 die op 12 seconden wordt aangemaakt op de body, */
+/* ik geef de class een animatie mee van 1 seconden. */
+.sound2 #siren {
+    animation: siren 1s linear;
+}
 
+/* Dit ID plaatst de siren op de juiste plek, en geeft het effect een gele box-shadow. */
+#siren {
+    width: 106em;
+    height: 0.5em;
+    position: absolute;
+    background-color: yellow;
+    opacity: 0;
+    left: 7em;
+    bottom: 0;
+    z-index: -1;
+    box-shadow: 0.5em 0 3em 3em yellow;
+}
+
+/* Deze Keyframe laat weten wanneer het effect wel en niet moeten worden laten zien, */
+/* en hoe groot het effect moet zijn. */
+@-webkit-keyframes siren {
+    0% {
+        opacity: 0;
+        height: 0.5em;
+    }
+
+    1% {
+        opacity: 1;
+        height: 0.5em;
+
+    }
+
+    50% {
+        opacity: 1;
+        height: 40em;
+    }
+
+    99% {
+        opacity: 1;
+        height: 0.5em;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0.5em;
+    }
+}
 ```
 
 ##### Low & HIGH frequency Buzzer
 \[🎵🚨 Low frequency Buzzer\] en \[🎵🚨 High frequency Buzzer\] heb ik visueel laten zien door 2 groene balken aan de rechter- en linkerkant van het fragment op te laten lichten. De low buzzer-balk is korter dan die van de high-buzzer-balk om aan te geven dat de ene een lage toon is en de andere een hoge toon:
 
-![lowbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/lowhighbuzzer.gif)
+![lowhighbuzzer](https://github.com/RobinAnsems/web-typography/blob/master/images/lowhighbuzzer.gif)
 
 Ik heb er voor gekozen om de balken groen te maken omdat de lage en hoge buzzer-tonen mij deden denken een iets van een scanner. Ik heb er ook voor gekozen om de 'low buzzer' te laten bewegen omdat deze toon vrij kartelig is.
 
